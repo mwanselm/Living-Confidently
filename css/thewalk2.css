@@ -1,0 +1,309 @@
+#walktwo, #walkthree { background-color: #70d3d7; font-size: 16px !Important; /* Sass Document */ /*fonts */ /* Fonts */ /*#mrw-intro-steps #shoe_measure { width: 822px; height: 343px; margin: 0px auto; background: url(../img/Shoe_Measure.svg) no-repeat center center; background-size: 100%; text-align: center;
+}*/ /* Intro Modal */ /* Page Transitions */ /*# sourceMappingURL=stylesheet-intro.css.map */ }
+#walktwo .modal, #walkthree .modal { z-index: 100000; }
+#walktwo .modal p, #walkthree .modal p { color: #fff; }
+@font-face { #walktwo, #walkthree { font-family: brandon_grotesue_thin; src: url(../css/fonts/brandongrotesque-thin-webfont.eot); src: url(../css/fonts/brandongrotesque-thin-webfont.eot?#iefix) format("embedded-opentype"), url(../css/fonts/brandongrotesque-thin-webfont.woff2) format("woff2"), url(../css/fonts/brandongrotesque-thin-webfont.woff) format("woff"), url(../css/fonts/brandongrotesque-thin-webfont.ttf) format("truetype"), url(../css/fonts/brandongrotesque-thin-webfont.svg#brandon_grotesquethin) format("svg"); font-weight: 100; font-style: normal; } }
+@font-face { #walktwo, #walkthree { font-family: brandon_grotesque_regularRg; src: url(../css/fonts/brandongrotesque-regular-webfont.eot); src: url(../css/fonts/brandongrotesque-regular-webfont.eot?#iefix) format("embedded-opentype"), url(../css/fonts/brandongrotesque-regular-webfont.woff2) format("woff2"), url(../css/fonts/brandongrotesque-regular-webfont.woff) format("woff"), url(../css/fonts/brandongrotesque-regular-webfont.ttf) format("truetype"), url(../css/fonts/brandongrotesque-regular-webfont.svg#brandon_grotesque_regularRg) format("svg"); font-weight: normal; font-style: normal; } }
+@font-face { #walktwo, #walkthree { font-family: brandon_grotesquebold; src: url(../css/fonts/brandongrotesque-bold-webfont.eot); src: url(../css/fonts/brandongrotesque-bold-webfont.eot?#iefix) format("embedded-opentype"), url(../css/fonts/brandongrotesque-bold-webfont.woff2) format("woff2"), url(../css/fonts/brandongrotesque-bold-webfont.woff) format("woff"), url(../css/fonts/brandongrotesque-bold-webfont.ttf) format("truetype"), url(../css/fonts/brandongrotesque-bold-webfont.svg#brandon_grotesquebold) format("svg"); font-weight: 700; font-style: normal; } }
+@font-face { #walktwo, #walkthree { font-family: brandon_grotesqueblack; src: url(../css/fonts/brandongrotesque-black-webfont.eot); src: url(../css/fonts/brandongrotesque-black-webfont.eot?#iefix) format("embedded-opentype"), url(../css/fonts/brandongrotesque-black-webfont.woff2) format("woff2"), url(../css/fonts/brandongrotesque-black-webfont.woff) format("woff"), url(../css/fonts/brandongrotesque-black-webfont.ttf) format("truetype"), url(../css/fonts/brandongrotesque-black-webfont.svg#brandon_grotesqueblack) format("svg"); font-weight: 900; font-style: normal; } }
+#walktwo .btn, #walkthree .btn { padding: 10px 25px; font-size: 1.125rem; font-family: brandon_grotesque_regularRg, 'Arial'; font-weight: 600; font-size: 17px; letter-spacing: 1.5px; }
+#walktwo .btn-primary, #walkthree .btn-primary { background-color: #009de3; border-color: #009de3; color: white; }
+#walktwo .btn-primary:hover, #walkthree .btn-primary:hover { background-color: #009de3; border-color: #009de3; text-decoration: underline; }
+#walktwo body, #walktwo html, #walkthree body, #walkthree html { font-size: 16px; color: white; }
+#walktwo .fade-in, #walkthree .fade-in { opacity: 0; /* make things invisible upon start */ -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */ -moz-animation: fadeIn ease-in 1; animation: fadeIn ease-in 1; -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1) */ -moz-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-duration: 0.1s; -moz-animation-duration: 0.1s; animation-duration: 0.1s; }
+#walktwo .fade-out, #walkthree .fade-out { opacity: 1; /* make things invisible upon start */ -webkit-animation: fadeOut ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */ -moz-animation: fadeOut ease-in 1; animation: fadeOut ease-in 1; -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1) */ -moz-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-duration: 1s; -moz-animation-duration: 1s; animation-duration: 1s; /* Tooltip */ }
+#walktwo .tipso_bubble, #walkthree .tipso_bubble { font-family: brandon_grotesque_regularRg !important , 'Arial'; background-color: rgba(255, 255, 255, 0.9) !important; border: 2px solid white; padding: 25px 50px; font-size: 1.125rem !important; border-radius: 10px !important; line-height: 1.1; }
+#walktwo .navbar a.logo img, #walkthree .navbar a.logo img { max-width: 224px; height: 55.25px; }
+#walktwo #main, #walkthree #main { height: 100vh; width: 100%; display: table; }
+#walktwo #mrw-intro-steps, #walkthree #mrw-intro-steps { display: table-cell; vertical-align: middle; }
+#walktwo #mrw-intro-steps h1, #walktwo .walk-modal .modal-content #page_header h1, #walkthree #mrw-intro-steps h1, #walkthree .walk-modal .modal-content #page_header h1 { font-size: 2.25em; }
+#walktwo #mrw-intro-steps h2, #walktwo .walk-modal .modal-content #page_header h2, #walkthree #mrw-intro-steps h2, #walkthree .walk-modal .modal-content #page_header h2 { font-size: 2.875rem; font-family: brandon_grotesquebold, 'Arial'; }
+#walktwo #mrw-intro-steps h3, #walktwo .walk-modal .modal-content #page_header h3, #walkthree #mrw-intro-steps h3, #walkthree .walk-modal .modal-content #page_header h3 { font-size: 1.875rem; color: #002550; }
+#walktwo #mrw-intro-steps h1, #walktwo #mrw-intro-steps h2, #walktwo #mrw-intro-steps h3, #walktwo .walk-modal .modal-content #page_header h1, #walktwo .walk-modal .modal-content #page_header h2, #walktwo .walk-modal .modal-content #page_header h3, #walkthree #mrw-intro-steps h1, #walkthree #mrw-intro-steps h2, #walkthree #mrw-intro-steps h3, #walkthree .walk-modal .modal-content #page_header h1, #walkthree .walk-modal .modal-content #page_header h2, #walkthree .walk-modal .modal-content #page_header h3 { font-family: brandon_grotesqueblack, 'Arial'; text-transform: uppercase; margin: 0px; }
+#walktwo #mrw-intro-steps .thin, #walkthree #mrw-intro-steps .thin { font-family: brandon_grotesue_thin, 'Arial'; }
+#walktwo #mrw-intro-steps p, #walkthree #mrw-intro-steps p { font-family: brandon_grotesque_regularRg, 'Arial'; font-size: 1.125em; line-height: 1; }
+#walktwo #next_steps_body > p, #walkthree #next_steps_body > p { line-height: 1.4; }
+#walktwo #mrw-intro-steps::selection, #walkthree #mrw-intro-steps::selection { background: #D67400; }
+#walktwo #mrw-intro-steps::-moz-selection, #walkthree #mrw-intro-steps::-moz-selection { background: #D67400; }
+#walktwo #mrw-intro-steps .desktop_image, #walkthree #mrw-intro-steps .desktop_image { display: block; position: absolute; bottom: 0px; width: 38%; left: 0px; right: 0px; z-index: 100; margin: 0px auto; }
+#walktwo #mrw-intro-steps .mobile_image, #walkthree #mrw-intro-steps .mobile_image { display: none; }
+#walktwo #mrw-intro-steps section, #walkthree #mrw-intro-steps section { height: 100vh; }
+#walktwo #mrw-intro-steps #gender, #walktwo #mrw-intro-steps #age, #walkthree #mrw-intro-steps #gender, #walkthree #mrw-intro-steps #age { background-color: #70d3d7; }
+#walktwo #mrw-intro-steps #gender h2, #walkthree #mrw-intro-steps #gender h2 { line-height: 1.4; margin-bottom: 35px; padding: 0px; font-size: 1.5rem; }
+#walktwo #mrw-intro-steps #gender #selection, #walkthree #mrw-intro-steps #gender #selection { font-size: 1.125em; font-family: brandon_grotesqueblack, 'Arial'; color: #051d4d; }
+#walktwo #mrw-intro-steps #gender .title, #walkthree #mrw-intro-steps #gender .title { font-size: 2rem; }
+#walktwo #mrw-intro-steps #gender #selection .control-indicator, #walkthree #mrw-intro-steps #gender #selection .control-indicator { height: 23px; width: 23px; border-radius: 5px; }
+#walktwo #mrw-intro-steps #gender #selection #image_container, #walkthree #mrw-intro-steps #gender #selection #image_container { position: relative; width: 220px; height: 269px; margin-top: -25px; }
+#walktwo #mrw-intro-steps #gender #selection #image_container img, #walkthree #mrw-intro-steps #gender #selection #image_container img { position: absolute; width: 220px; left: 0px; right: 0px; margin: 0px auto; }
+#walktwo #mrw-intro-steps #gender #selection img#gender_circle, #walkthree #mrw-intro-steps #gender #selection img#gender_circle { -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s; }
+#walktwo #mrw-intro-steps #gender #selection img#gender_male, #walktwo #mrw-intro-steps #gender #selection img#gender_female, #walktwo #mrw-intro-steps #gender #selection img#gender_male_rev, #walktwo #mrw-intro-steps #gender #selection img#gender_female_rev, #walkthree #mrw-intro-steps #gender #selection img#gender_male, #walkthree #mrw-intro-steps #gender #selection img#gender_female, #walkthree #mrw-intro-steps #gender #selection img#gender_male_rev, #walkthree #mrw-intro-steps #gender #selection img#gender_female_rev { display: none; }
+#walktwo #mrw-intro-steps #gender #selection img#gender_male, #walktwo #mrw-intro-steps #gender #selection img#gender_male_rev, #walkthree #mrw-intro-steps #gender #selection img#gender_male, #walkthree #mrw-intro-steps #gender #selection img#gender_male_rev { z-index: 99999; }
+#walktwo #mrw-intro-steps .control-indicator, #walkthree #mrw-intro-steps .control-indicator { color: white; }
+#walktwo #mrw-intro-steps .control, #walkthree #mrw-intro-steps .control { line-height: 2; margin-left: 10px; margin-right: 10px; padding-left: 2rem; }
+#walktwo #mrw-intro-steps #age h2, #walkthree #mrw-intro-steps #age h2 { margin: 0px auto 48px; color: #051d4d; font-size: 1.5rem; padding: 0px; }
+#walktwo #mrw-intro-steps #shoe_measure, #walkthree #mrw-intro-steps #shoe_measure { width: 822px; height: 343px; margin: 0px auto; background: url(../img/Shoe_Measure.svg) no-repeat center center; background-size: 100%; text-align: center; }
+#walktwo #mrw-intro-steps input[name='amountInput'], #walkthree #mrw-intro-steps input[name='amountInput'] { font-family: brandon_grotesqueblack, 'Arial'; }
+#walktwo #mrw-intro-steps #age_value, #walkthree #mrw-intro-steps #age_value { width: 105px; outline: none; border: 2px solid #eaeef4; font-size: 28px !important; height: 55px; line-height: 55px; margin-top: 62px; text-align: center; color: #2e88ff; }
+#walktwo #mrw-intro-steps #age_slider, #walkthree #mrw-intro-steps #age_slider { margin: 150px auto 30px; background: transparent; }
+#walktwo #mrw-intro-steps #next_steps, #walkthree #mrw-intro-steps #next_steps { padding: 109px 0px 50px; color: #328abd; }
+#walktwo #mrw-intro-steps #next_steps h2, #walkthree #mrw-intro-steps #next_steps h2 { text-transform: none; }
+#walktwo #mrw-intro-steps #next_steps p, #walkthree #mrw-intro-steps #next_steps p { clear: both; margin-bottom: 20px; }
+#walktwo #mrw-intro-steps #next_steps #page_header, #walkthree #mrw-intro-steps #next_steps #page_header { padding: 10px 0px; }
+#walktwo #mrw-intro-steps #next_steps #page_header h2, #walkthree #mrw-intro-steps #next_steps #page_header h2 { padding: 15px 0px 10px; font-size: 1rem; text-transform: uppercase; }
+#walktwo #mrw-intro-steps #next_steps #page_header img, #walkthree #mrw-intro-steps #next_steps #page_header img { width: 50px; }
+#walktwo #mrw-intro-steps #next_steps #page_header h3, #walkthree #mrw-intro-steps #next_steps #page_header h3 { color: #328abd; font-size: 2.25rem; }
+#walktwo #mrw-intro-steps #next_steps #step_cta .square:last-child, #walkthree #mrw-intro-steps #next_steps #step_cta .square:last-child { margin-bottom: 2em; }
+#walktwo #mrw-intro-steps #next_steps #step_cta p, #walkthree #mrw-intro-steps #next_steps #step_cta p { margin: 0px auto; font-weight: 600; float: left; clear: both; }
+#walktwo #mrw-intro-steps #next_steps #step_cta p:last-of-type, #walkthree #mrw-intro-steps #next_steps #step_cta p:last-of-type { font-weight: normal; }
+#walktwo #mrw-intro-steps #next_steps #step_cta .square, #walkthree #mrw-intro-steps #next_steps #step_cta .square { float: left; position: relative; width: 30%; padding-bottom: 30%; margin: 1.66%; overflow: hidden; transition: all 0.3s ease 0s; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu { width: 170px; border: 1px solid #002c5f; padding: 10px 18px 2px; left: -4px; z-index: 99999; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu .divider, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu .divider { background-color: #d8dbe4; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li:first-child, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li:first-child { background-image: url(../img/icon_close.svg); background-position: center right; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li:first-child a, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li:first-child a { text-decoration: none; color: #6c6d72 !important; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li { background-position: center left; background-repeat: no-repeat; background-size: 14px 14px; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.social, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.social { padding-left: 25px !important; margin: 0px 0px 6px 0px; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.facebook, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.facebook { background-image: url(../img/icon_facebook.svg); }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.twitter, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.twitter { background-image: url(../img/icon_twitter.svg); }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.linkedin, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.linkedin { background-image: url(../img/icon_linkedin.svg); }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.google, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.google { background-image: url(../img/icon_google.svg); }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.email, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li.email { background-image: url(../img/icon_envelope.png); }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li a, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu li a { text-decoration: underline; line-height: 1.375rem; padding: 0px !important; font-weight: 500; font-size: 16px !important; font-family: brandon_grotesque_regularRg; position: initial !important; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu a:focus, #walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu a:hover, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu a:focus, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu a:hover { background-color: transparent !important; color: #002c5f !important; }
+#walktwo #mrw-intro-steps #next_steps #step_cta .column, #walkthree #mrw-intro-steps #next_steps #step_cta .column { float: left; width: 33.33%; padding: 5px; }
+#walktwo #mrw-intro-steps #step_cta img, #walkthree #mrw-intro-steps #step_cta img { width: 67px; }
+#walktwo #mrw-intro-steps #next_steps #step_cta figure, #walkthree #mrw-intro-steps #next_steps #step_cta figure { width: 100%; padding: 15px 0px 10px; }
+#walktwo #mrw-intro-steps #next_steps #step_cta figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta figcaption { font-size: 1em; padding: 10px; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #contact figure, #walktwo #mrw-intro-steps #next_steps #step_cta #contact figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta #contact figure, #walkthree #mrw-intro-steps #next_steps #step_cta #contact figcaption { background-color: #49076c; font-size: .95em; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #contact .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta #contact .mobile_caption { background-color: #9a6eb1; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite figure, #walktwo #mrw-intro-steps #next_steps #step_cta #invite figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta #invite figure, #walkthree #mrw-intro-steps #next_steps #step_cta #invite figcaption { background-color: #d94921; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #invite .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .mobile_caption { background-color: #ec6c48; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #learn figure, #walktwo #mrw-intro-steps #next_steps #step_cta #learn figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta #learn figure, #walkthree #mrw-intro-steps #next_steps #step_cta #learn figcaption { background-color: #f2b50f; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #learn .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta #learn .mobile_caption { background-color: #ecc251; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #view figure, #walktwo #mrw-intro-steps #next_steps #step_cta #view figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta #view figure, #walkthree #mrw-intro-steps #next_steps #step_cta #view figcaption { background-color: #1496c0; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #view .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta #view .mobile_caption { background-color: #3eb2d8; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #retake figure, #walktwo #mrw-intro-steps #next_steps #step_cta #retake figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta #retake figure, #walkthree #mrw-intro-steps #next_steps #step_cta #retake figcaption { background-color: #0b9e87; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #retake .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta #retake .mobile_caption { background-color: #48bdab; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #opinion figure, #walktwo #mrw-intro-steps #next_steps #step_cta #opinion figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta #opinion figure, #walkthree #mrw-intro-steps #next_steps #step_cta #opinion figcaption { background-color: #0a509c; }
+#walktwo #mrw-intro-steps #next_steps #step_cta #opinion .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta #opinion .mobile_caption { background-color: #4e95d7; }
+#walktwo #mrw-intro-steps #next_steps #step_cta .content, #walkthree #mrw-intro-steps #next_steps #step_cta .content { position: absolute; height: 100%; width: 100%; padding: 15% 5% 5% 5%; }
+#walktwo #mrw-intro-steps #next_steps #step_cta .content .rs, #walkthree #mrw-intro-steps #next_steps #step_cta .content .rs { width: auto; height: auto; max-height: 90%; max-width: 80%; padding-bottom: 5px; }
+#walktwo #mrw-intro-steps #next_steps #step_cta .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta .mobile_caption { display: none; }
+#walktwo .walk-modal .modal-content, #walkthree .walk-modal .modal-content { background-color: #70d3d7; padding: 0px 40px 30px 40px; }
+#walktwo #mrw-intro-steps #gender, #walkthree #mrw-intro-steps #gender { color: white; text-transform: uppercase; overflow-y: auto; }
+#walktwo .walk-modal .modal-content #page_header, #walkthree .walk-modal .modal-content #page_header { background-color: rgba(0, 0, 0, 0.08); padding: 20px 0px; margin-bottom: 36px; margin-left: -40px; margin-right: -40px; }
+#walktwo .walk-modal .modal-content #page_header img, #walkthree .walk-modal .modal-content #page_header img { width: 80%; max-width: 525px; }
+#walktwo .walk-modal .modal-content #page_header h1, #walkthree .walk-modal .modal-content #page_header h1 { color: white; }
+#walktwo .walk-modal .modal-content p, #walkthree .walk-modal .modal-content p { line-height: 1.4; margin-bottom: 35px; padding: 0px; font-family: brandon_grotesquebold; }
+#walktwo .walk-modal .modal-content #page_header h3, #walkthree .walk-modal .modal-content #page_header h3 { color: #051d4d; font-family: brandon_grotesque_regularRg; font-weight: 600; font-size: 1.125rem; }
+@media screen and (min-width: 769px) { #walktwo .modal, #walkthree .modal { text-align: center; padding: 0 !important; }
+  #walktwo .modal:before, #walkthree .modal:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px; }
+  #walktwo .modal-dialog, #walkthree .modal-dialog { display: inline-block; text-align: left; vertical-align: middle; }
+  #walktwo #mrw-intro-steps #age #age_slider, #walkthree #mrw-intro-steps #age #age_slider { width: 648px; margin-bottom: 65px; }
+  #walktwo #mrw-intro-steps #age_slider, #walkthree #mrw-intro-steps #age_slider { width: 547px\9; /* IE6, IE7, IE8, IE9 */ }
+  #walktwo .ie10 #mrw-intro-steps #age_slider, #walkthree .ie10 #mrw-intro-steps #age_slider { width: 547px; /* Only works in IE10 */ }
+  #walktwo _:-ms-input-placeholder, #walktwo :root #mrw-intro-steps #age_slider, #walkthree _:-ms-input-placeholder, #walkthree :root #mrw-intro-steps #age_slider { width: 547px; /* Only works in IE10 */ }
+  #walktwo #mrw-intro-steps #step_cta, #walkthree #mrw-intro-steps #step_cta { width: 70%; clear: both; font-size: 0.8rem; }
+  #walktwo #mrw-intro-steps #next_steps_body, #walkthree #mrw-intro-steps #next_steps_body { width: 655px; margin: 20px auto 0px; background: white; -webkit-box-shadow: 0px 25px 47px 12px rgba(0, 0, 0, 0.19); -moz-box-shadow: 0px 25px 47px 12px rgba(0, 0, 0, 0.19); box-shadow: 0px 25px 47px 12px rgba(0, 0, 0, 0.19); padding-left: 5%; padding-right: 5%; padding-bottom: 30px; }
+  #walktwo #mrw-intro-steps #next_steps, #walkthree #mrw-intro-steps #next_steps { padding: 109px 0px 50px; color: #328abd; background: url(../img/RW_logo_shoe.svg) top left repeat; background-size: 80px; height: auto; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta #contact figcaption p, #walkthree #mrw-intro-steps #next_steps #step_cta #contact figcaption p { padding-top: 8px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta #view figcaption p, #walktwo #mrw-intro-steps #next_steps #step_cta #invite figcaption p, #walkthree #mrw-intro-steps #next_steps #step_cta #view figcaption p, #walkthree #mrw-intro-steps #next_steps #step_cta #invite figcaption p { padding-top: 18px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta #retake figcaption p, #walkthree #mrw-intro-steps #next_steps #step_cta #retake figcaption p { padding-top: 23px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta #opinion figcaption p, #walkthree #mrw-intro-steps #next_steps #step_cta #opinion figcaption p { padding-top: 5px; }
+  #walktwo #mrw-intro-steps #next_steps .rs, #walkthree #mrw-intro-steps #next_steps .rs { width: 37px !important; }
+  #walktwo .animated, #walkthree .animated { /*CSS transitions*/ -o-transition-property: none !important; -moz-transition-property: none !important; -ms-transition-property: none !important; -webkit-transition-property: none !important; transition-property: none !important; /*CSS transforms*/ -o-transform: none !important; -moz-transform: none !important; -ms-transform: none !important; -webkit-transform: none !important; transform: none !important; /*CSS animations*/ -webkit-animation: none !important; -moz-animation: none !important; -o-animation: none !important; -ms-animation: none !important; animation: none !important; } }
+@media screen and (max-width: 768px) { #walktwo, #walkthree { /*#mrw-intro-steps #age #shoe_measure { background: url(../img/Shoe_Measure_Mobile_sm.svg) no-repeat center top; width: 100%; height: auto; overflow: hidden; background-size: 120%;
+}*/ }
+  #walktwo #mrw-intro-steps .btn, #walkthree #mrw-intro-steps .btn { padding: 9px 20px; }
+  #walktwo #mrw-intro-steps #gender, #walkthree #mrw-intro-steps #gender { padding-left: 30px; padding-right: 30px; }
+  #walktwo .walk-modal .modal-content #page_header, #walkthree .walk-modal .modal-content #page_header { margin-top: 0px; padding-left: 10px; padding-right: 10px; }
+  #walktwo .walk-modal.in .modal-dialog, #walkthree .walk-modal.in .modal-dialog { margin-top: 25%; width: 90%; }
+  #walktwo .walk-modal .modal-content #page_header h1, #walkthree .walk-modal .modal-content #page_header h1 { font-size: 1.8em; margin: 20px 0px 10px; }
+  #walktwo #mrw-intro-steps #page_header img, #walkthree #mrw-intro-steps #page_header img { width: 70%; }
+  #walktwo #mrw-intro-steps #gender, #walkthree #mrw-intro-steps #gender { padding: 6em 1em; height: auto; }
+  #walktwo #mrw-intro-steps #gender h2, #walkthree #mrw-intro-steps #gender h2 { margin-bottom: 1rem; font-size: 1.2rem; }
+  #walktwo #mrw-intro-steps #gender #selection, #walkthree #mrw-intro-steps #gender #selection { height: 315px; }
+  #walktwo #mrw-intro-steps #gender #selection .title, #walkthree #mrw-intro-steps #gender #selection .title { font-size: 2rem; }
+  #walktwo #mrw-intro-steps #age, #walkthree #mrw-intro-steps #age { height: auto; }
+  #walktwo #mrw-intro-steps #age h2, #walkthree #mrw-intro-steps #age h2 { margin: 5em 0px 0.8em; font-size: 1.4em; }
+  #walktwo #mrw-intro-steps #age #shoe_measure, #walkthree #mrw-intro-steps #age #shoe_measure { width: 100%; }
+  #walktwo #mrw-intro-steps #age #age_value, #walkthree #mrw-intro-steps #age #age_value { margin: 70px auto 132px; height: 55px; line-height: 55px; font-size: 28px !important; }
+  #walktwo #mrw-intro-steps #age #age_slider, #walkthree #mrw-intro-steps #age #age_slider { margin: 0px auto; width: 80%; }
+  #walktwo #mrw-intro-steps #age .btn, #walkthree #mrw-intro-steps #age .btn { margin-top: 3em; }
+  #walktwo #mrw-intro-steps #next_steps #next_steps_body, #walkthree #mrw-intro-steps #next_steps #next_steps_body { width: 90%; margin: 0px auto; }
+  #walktwo #mrw-intro-steps #next_steps #next_steps_body .content, #walkthree #mrw-intro-steps #next_steps #next_steps_body .content { padding: 13px 5px 5px 5px; }
+  #walktwo #mrw-intro-steps #next_steps #next_steps_body .content .rs, #walkthree #mrw-intro-steps #next_steps #next_steps_body .content .rs { max-width: 70%; }
+  #walktwo #mrw-intro-steps .mobile_image, #walkthree #mrw-intro-steps .mobile_image { display: block; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta, #walkthree #mrw-intro-steps #next_steps #step_cta { height: 768px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .column, #walkthree #mrw-intro-steps #next_steps #step_cta .column { clear: both; padding: 0px; width: 100%; height: 112px; margin-bottom: 15px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta figure, #walkthree #mrw-intro-steps #next_steps #step_cta figure { float: left; padding: 15px 15px 10px; width: 17%; height: 100%; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta figure img, #walkthree #mrw-intro-steps #next_steps #step_cta figure img { -webkit-transition: none; transition: none; opacity: 1 !important; transform: none; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta figcaption { opacity: 0 !important; -webkit-transition: none; transition: none; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta .mobile_caption { display: table; width: 83%; padding: 20px; height: 100%; text-align: left; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .mobile_caption a, #walkthree #mrw-intro-steps #next_steps #step_cta .mobile_caption a { display: table-cell; vertical-align: middle; float: none; color: white; font-family: brandon_grotesque_regularRg, 'Arial'; line-height: 1; font-size: 1.125em; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu { top: 8px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta #invite .mobile_caption .dropdown-menu, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .mobile_caption .dropdown-menu { left: -100px; } }
+@media screen and (max-width: 440px) { #walktwo #mrw-intro-steps #gender #selection #image_container, #walkthree #mrw-intro-steps #gender #selection #image_container { position: relative; width: 220px; height: 195px; margin-top: -25px; }
+  #walktwo #mrw-intro-steps #gender #selection #image_container img, #walkthree #mrw-intro-steps #gender #selection #image_container img { position: absolute; width: 155px; left: 0px; right: 0px; margin: 0px auto; }
+  #walktwo #mrw-intro-steps #next_steps #next_steps_body .square, #walkthree #mrw-intro-steps #next_steps #next_steps_body .square { width: 46%; margin: 2%; padding-bottom: 46%; }
+  #walktwo #mrw-intro-steps #next_steps #next_steps_body .content, #walkthree #mrw-intro-steps #next_steps #next_steps_body .content { padding: 17px 5px 5px 5px; }
+  #walktwo #mrw-intro-steps #next_steps #next_steps_body .table-cell br, #walkthree #mrw-intro-steps #next_steps #next_steps_body .table-cell br { line-height: 5; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta figure, #walkthree #mrw-intro-steps #next_steps #step_cta figure { width: 27%; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta .mobile_caption { width: 73%; } }
+@media screen and (max-width: 1024px) and (min-width: 768px) { #walktwo #mrw-intro-steps #next_steps, #walkthree #mrw-intro-steps #next_steps { height: auto; }
+  #walktwo #mrw-intro-steps #step_cta, #walkthree #mrw-intro-steps #step_cta { width: 100%; }
+  #walktwo #mrw-intro-steps > p, #walkthree #mrw-intro-steps > p { font-size: 1em; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .column, #walkthree #mrw-intro-steps #next_steps #step_cta .column { clear: both; padding: 0px; width: 100%; height: 112px; margin-bottom: 15px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta figure, #walkthree #mrw-intro-steps #next_steps #step_cta figure { float: left; padding: 15px 15px 10px; width: 17%; height: 100%; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta figure img, #walkthree #mrw-intro-steps #next_steps #step_cta figure img { -webkit-transition: none; transition: none; opacity: 1 !important; transform: none; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta figcaption, #walkthree #mrw-intro-steps #next_steps #step_cta figcaption { opacity: 0 !important; -webkit-transition: none; transition: none; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta .mobile_caption { display: table; width: 83%; padding: 20px; height: 100%; text-align: left; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .mobile_caption a, #walkthree #mrw-intro-steps #next_steps #step_cta .mobile_caption a { display: table-cell; vertical-align: middle; float: none; color: white; font-size: 2em; font-family: brandon_grotesque_regularRg, 'Arial'; line-height: 1; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu, #walkthree #mrw-intro-steps #next_steps #step_cta #invite .dropdown-menu { top: 8px; } }
+@media screen and (max-width: 767px) { #walktwo #mrw-intro-steps #gender #page_header, #walkthree #mrw-intro-steps #gender #page_header { display: none; }
+  #walktwo #mrw-intro-steps #gender, #walkthree #mrw-intro-steps #gender { padding: 7em 1em; }
+  #walktwo #mrw-intro-steps #age #age_value, #walkthree #mrw-intro-steps #age #age_value { margin: 57px auto 115px; }
+  #walktwo #mrw-intro-steps #age #age_slider, #walkthree #mrw-intro-steps #age #age_slider { width: 100%; }
+  #walktwo #mrw-intro-steps #age #shoe_measure, #walkthree #mrw-intro-steps #age #shoe_measure { background: url(../img/Shoe_Measure_Mobile_sm.svg) no-repeat center top; height: auto; overflow: hidden; background-size: 100%; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .content .rs, #walkthree #mrw-intro-steps #next_steps #step_cta .content .rs { padding-bottom: 10px; } }
+@media screen and (max-width: 320px) { #walktwo #mrw-intro-steps #age #age_value, #walkthree #mrw-intro-steps #age #age_value { margin: 48px auto 103px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta figure, #walkthree #mrw-intro-steps #next_steps #step_cta figure { width: 30%; padding: 19px 15px 7px; }
+  #walktwo #mrw-intro-steps #next_steps #step_cta .mobile_caption, #walkthree #mrw-intro-steps #next_steps #step_cta .mobile_caption { width: 70%; } }
+@media screen and (min-height: 768px) { #walktwo #mrw-intro-steps #age h2, #walkthree #mrw-intro-steps #age h2 { margin: 0px auto 48px; } }
+#walktwo .scene_element--fadeinright, #walkthree .scene_element--fadeinright { animation-name: fadeInRight; }
+@keyframes fadeInRight { 0% { opacity: 0; transform: translate3d(100%, 0, 0); }
+  100% { opacity: 1; transform: none; } }
+.control { position: relative; display: inline-block; padding-left: 1.5rem; color: #051d4d; cursor: pointer; }
+
+.control input { position: absolute; opacity: 0; z-index: -1; /* Put the input behind the label so it doesn't overlay text */ }
+
+.control-indicator { position: absolute; top: .25rem; left: 0; display: block; width: 1rem; height: 1rem; line-height: 1rem; font-size: 65%; color: #eee; text-align: center; background-color: white; background-size: 50% 50%; background-position: center center; background-repeat: no-repeat; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+/* Hover state */
+/* Uncomment if you need it, but be aware of the sticky iOS states.
+.control:hover .control-indicator { color: #fff; background-color: #ccc;
+}
+*/
+/* Focus */
+.control input:focus ~ .control-indicator { box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9; }
+
+/* Checked state */
+.control input:checked ~ .control-indicator { color: #fff; background-color: #0074d9; }
+
+/* Active */
+.control input:active ~ .control-indicator { color: #fff; background-color: #84c6ff; }
+
+/* Checkbox modifiers */
+.checkbox .control-indicator { border-radius: .25rem; }
+
+.checkbox input:checked ~ .control-indicator { background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNCwxTDUuNywxLjdMMi45LDQuNUwyLjEsMy43TDEuNCwzTDAsNC40bDAuNywwLjdsMS41LDEuNWwwLjcsMC43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=); }
+
+/* Radio modifiers */
+.radio .control-indicator { border-radius: 50%; }
+
+.radio input:checked ~ .control-indicator { background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNCwxTDUuNywxLjdMMi45LDQuNUwyLjEsMy43TDEuNCwzTDAsNC40bDAuNywwLjdsMS41LDEuNWwwLjcsMC43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=); }
+
+/* Alternately, use another character */
+.control-x input:checked ~ .control-indicator { background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iOHB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDggOCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgOCA4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xLjQsMEwwLDEuNGwwLjcsMC43bDEuOCwxLjhMMC43LDUuN0wwLDYuNGwxLjQsMS40bDAuNy0wLjdsMS44LTEuOGwxLjgsMS44bDAuNywwLjdsMS40LTEuNEw3LjEsNS43DQoJTDUuMywzLjlsMS44LTEuOGwwLjctMC43TDYuNCwwTDUuNywwLjdMMy45LDIuNUwyLjEsMC43QzIuMSwwLjcsMS40LDAsMS40LDB6Ii8+DQo8L3N2Zz4NCg==); }
+
+.control-dash input:checked ~ .control-indicator { background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iOHB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDggOCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgOCA4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wLDN2Mmg4VjNIMHoiLz4NCjwvc3ZnPg0K); }
+
+/* Select */
+.select { position: relative; display: inline-block; color: #555; }
+
+.select select { display: inline-block; width: 100%; margin: 0; padding: .5rem 2.25rem .5rem 1rem; line-height: 1.5; color: #555; background-color: #eee; border: 0; border-radius: .25rem; cursor: pointer; outline: 0; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+/* Undo the Firefox inner focus ring */
+.select select:focus:-moz-focusring { color: transparent; text-shadow: 0 0 0 #000; }
+
+/* Dropdown arrow */
+.select:after { position: absolute; top: 50%; right: 1.25rem; display: inline-block; content: ""; width: 0; height: 0; margin-top: -.15rem; pointer-events: none; border-top: .35rem solid; border-right: .35rem solid transparent; border-bottom: .35rem solid transparent; border-left: .35rem solid transparent; }
+
+/* Hover state */
+/* Uncomment if you need it, but be aware of the sticky iOS states.
+.select select:hover { background-color: #ddd;
+}
+*/
+/* Focus */
+.select select:focus { box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9; }
+
+/* Active/open */
+.select select:active { color: #fff; background-color: #0074d9; }
+
+/* Hide the arrow in IE10 and up */
+.select select::-ms-expand { display: none; }
+
+/* Media query to target Firefox only */
+@-moz-document url-prefix() { /* Firefox hack to hide the arrow */
+  .select select { text-indent: 0.01px; text-overflow: ''; padding-right: 1rem; }
+  /* <option> elements inherit styles from <select>, so reset them. */
+  .select option { background-color: white; } }
+/* IE9 hack to hide the arrow */
+@media screen and (min-width: 0\0) { .select select { z-index: 1; padding: .5rem 1.5rem .5rem 1rem; }
+  .select:after { z-index: 5; }
+  .select:before { position: absolute; top: 0; right: 1rem; bottom: 0; z-index: 2; content: ""; display: block; width: 1.5rem; background-color: #eee; }
+  .select select:hover, .select select:focus, .select select:active { color: #555; background-color: #eee; } }
+/* File */
+.file { position: relative; display: inline-block; cursor: pointer; height: 2.5rem; }
+
+.file input { min-width: 14rem; margin: 0; filter: alpha(opacity=0); opacity: 0; }
+
+.file-custom { position: absolute; top: 0; right: 0; left: 0; z-index: 5; height: 2.5rem; padding: .5rem 1rem; line-height: 1.5; color: #555; background-color: #fff; border: .075rem solid #ddd; border-radius: .25rem; box-shadow: inset 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05); -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.file-custom:after { content: "Choose file..."; }
+
+.file-custom:before { position: absolute; top: -.075rem; right: -.075rem; bottom: -.075rem; z-index: 6; display: block; content: "Browse"; height: 2.5rem; padding: .5rem 1rem; line-height: 1.5; color: #555; background-color: #eee; border: .075rem solid #ddd; border-radius: 0 .25rem .25rem 0; }
+
+/* Focus */
+.file input:focus ~ .file-custom { box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9; }
+
+/* Progress */
+.progress { display: inline-block; height: 1rem; }
+
+.progress[value] { /* Reset the default appearance */ -webkit-appearance: none; -moz-appearance: none; appearance: none; /* Remove Firefox and Opera border */ border: 0; /* IE10 uses `color` to set the bar background-color */ color: #0074d9; }
+
+.progress[value]::-webkit-progress-bar { background-color: #eee; border-radius: .2rem; }
+
+.progress[value]::-webkit-progress-value { background-color: #0074d9; border-top-left-radius: .2rem; border-bottom-left-radius: .2rem; }
+
+.progress[value="100"]::-webkit-progress-value { border-top-right-radius: .2rem; border-bottom-right-radius: .2rem; }
+
+/* Firefox styles must be entirely separate or it busts Webkit styles. */
+@-moz-document url-prefix() { .progress[value] { background-color: #eee; border-radius: .2rem; }
+  .progress[value]::-moz-progress-bar { background-color: #0074d9; border-top-left-radius: .2rem; border-bottom-left-radius: .2rem; }
+  .progress[value="100"]::-moz-progress-bar { border-top-right-radius: .2rem; border-bottom-right-radius: .2rem; } }
+/* IE9 hacks to accompany custom markup. We don't need to scope this via media queries, but I feel better doing it anyway. */
+@media screen and (min-width: 0\0) { .progress { background-color: #eee; border-radius: .2rem; }
+  .progress-bar { display: inline-block; height: 1rem; text-indent: -999rem; /* Simulate hiding of value as in native `<progress>` */ background-color: #0074d9; border-top-left-radius: .2rem; border-bottom-left-radius: .2rem; }
+  .progress[width="100%"] { border-top-right-radius: .2rem; border-bottom-right-radius: .2rem; } }
+/* Control layouts */
+.controls-stacked { margin: 1rem 0; }
+
+.controls-stacked .control, .controls-stacked .progress { display: block; }
+
+.controls-stacked .control + .control, .controls-stacked .progress + .progress { margin-top: .5rem; }
+
+.controls-inline { margin: 1rem 0; }
+
+.controls-inline .control { display: inline-block; height: 1rem; }
+
+.controls-inline .control + .control { margin-left: 1rem; }
+
+#walkthree input[type=range] { -webkit-appearance: none; margin: 10px 0; width: 100%; }
+#walkthree input[type=range]:focus { outline: none; }
+#walkthree input[type=range]::-webkit-slider-runnable-track { width: 100%; cursor: pointer; animate: 0.2s; background: url(../img/Shoe_measuer_slider_track.svg) no-repeat 55px center; background-size: 82%; }
+#walkthree input[type=range]::-webkit-slider-thumb { height: 56.2px; width: 106.3px; background: url(../img/shoe_measure_slider.svg) no-repeat center center; cursor: pointer; -webkit-appearance: none; margin-top: -10.6px; outline: none !important; border: none !important; }
+#walkthree input[type=range]:focus::-webkit-slider-runnable-track { background: url(../img/Shoe_measuer_slider_track.svg) no-repeat center center; background-size: 82%; }
+#walkthree input[type=range]::-moz-range-track { width: 100%; cursor: pointer; animate: 0.2s; background: url(../img/Shoe_measuer_slider_track.svg) no-repeat center center; background-size: 80%; }
+#walkthree input[type=range]::-moz-range-thumb { height: 56.2px; width: 106.3px; background: url(../img/shoe_measure_slider.svg) no-repeat center center; cursor: pointer; }
+#walkthree input[type=range]::-ms-track { width: 100%; height: 7.4px; cursor: pointer; animate: 0.2s; background: transparent; border-color: transparent; border-width: 39px 0; color: transparent; margin-top: -25px; }
+#walkthree input[type=range]::-ms-fill-lower { background: #b2bcd1; border: 0px solid #000101; border-radius: 50px; box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d; }
+#walkthree input[type=range]::-ms-fill-upper { background: #b2bcd1; border: 0px solid #000101; border-radius: 50px; box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d; }
+#walkthree input[type=range]::-ms-thumb { box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d; border: 0px solid #000000; height: 20px; width: 39px; border-radius: 7px; background: #2e88ff; cursor: pointer; }
+#walkthree input[type=range]:focus::-ms-fill-lower { background: #b2bcd1; }
+#walkthree input[type=range]:focus::-ms-fill-upper { background: #b2bcd1; }
+@media only screen and (max-width: 768px) { #walkthree input[type=range]::-webkit-slider-thumb { background: url(../img/shoe_measure_slider_mobile.svg) no-repeat center center; height: 150px; margin-top: -100.6px; }
+  #walkthree input[type=range]::-moz-range-thumb { background: url(../img/shoe_measure_slider_mobile.svg) no-repeat center center; height: 150px; }
+  #walkthree input[type=range]::-ms-thumb { height: 150px; margin-top: -10.6px; }
+  #walkthree input[type=range]::-webkit-slider-runnable-track { background-size: 60%; background: url(../img/Shoe_measuer_slider_track.svg) no-repeat center; }
+  #walkthree input[type=range]:focus::-webkit-slider-runnable-track { background-size: 60%; background: url(../img/Shoe_measuer_slider_track.svg) no-repeat center; }
+  #walkthree input[type=range]::-moz-range-track { background-size: 60%; background: url(../img/Shoe_measuer_slider_track.svg) no-repeat center; } }

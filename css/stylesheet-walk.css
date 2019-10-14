@@ -1,0 +1,726 @@
+/* Sass Document */
+/*fonts */
+/* Fonts */
+@font-face {
+  font-family: brandon_grotesue_thin;
+  src: url(../css/fonts/brandongrotesque-thin-webfont.eot);
+  src: url(../css/fonts/brandongrotesque-thin-webfont.eot?#iefix) format("embedded-opentype"), url(../css/fonts/brandongrotesque-thin-webfont.woff2) format("woff2"), url(../css/fonts/brandongrotesque-thin-webfont.woff) format("woff"), url(../css/fonts/brandongrotesque-thin-webfont.ttf) format("truetype"), url(../css/fonts/brandongrotesque-thin-webfont.svg#brandon_grotesquethin) format("svg");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: brandon_grotesque_regularRg;
+  src: url(../css/fonts/brandongrotesque-regular-webfont.eot);
+  src: url(../css/fonts/brandongrotesque-regular-webfont.eot?#iefix) format("embedded-opentype"), url(../css/fonts/brandongrotesque-regular-webfont.woff2) format("woff2"), url(../css/fonts/brandongrotesque-regular-webfont.woff) format("woff"), url(../css/fonts/brandongrotesque-regular-webfont.ttf) format("truetype"), url(../css/fonts/brandongrotesque-regular-webfont.svg#brandon_grotesque_regularRg) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: brandon_grotesquebold;
+  src: url(../css/fonts/brandongrotesque-bold-webfont.eot);
+  src: url(../css/fonts/brandongrotesque-bold-webfont.eot?#iefix) format("embedded-opentype"), url(../css/fonts/brandongrotesque-bold-webfont.woff2) format("woff2"), url(../css/fonts/brandongrotesque-bold-webfont.woff) format("woff"), url(../css/fonts/brandongrotesque-bold-webfont.ttf) format("truetype"), url(../css/fonts/brandongrotesque-bold-webfont.svg#brandon_grotesquebold) format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: brandon_grotesqueblack;
+  src: url(../css/fonts/brandongrotesque-black-webfont.eot);
+  src: url(../css/fonts/brandongrotesque-black-webfont.eot?#iefix) format("embedded-opentype"), url(../css/fonts/brandongrotesque-black-webfont.woff2) format("woff2"), url(../css/fonts/brandongrotesque-black-webfont.woff) format("woff"), url(../css/fonts/brandongrotesque-black-webfont.ttf) format("truetype"), url(../css/fonts/brandongrotesque-black-webfont.svg#brandon_grotesqueblack) format("svg");
+  font-weight: 900;
+  font-style: normal; }
+body.red {
+  background: #d74827 !important; }
+
+.btn {
+  padding: 10px 25px;
+  font-size: 1.125rem;
+  font-family: brandon_grotesque_regularRg, "Arial";
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1.5px; }
+
+.btn-primary {
+  background-color: #009de3;
+  border-color: #009de3; }
+  .btn-primary:hover, .btn-primary:focus {
+    background-color: #009de3;
+    border-color: #009de3; }
+
+body, html {
+  font-size: 16px;
+  color: white; }
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1) */
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.1s;
+  -moz-animation-duration: 0.1s;
+  animation-duration: 0.1s; }
+
+.fade-out {
+  opacity: 1;
+  /* make things invisible upon start */
+  -webkit-animation: fadeOut ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeOut ease-in 1;
+  animation: fadeOut ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1) */
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.navbar a.logo img {
+  max-width: 224px;
+  height: 55.25px; }
+
+#mrw-the-walk {
+  animation: fadein 2s;
+  /* Tooltip */ }
+  
+#mrw-the-walk h2 {color:#fff;}
+
+.tipso_bubble {
+  font-family: brandon_grotesque_regularRg !important;
+  background-color: rgba(255, 255, 255, 0.97) !important;
+  border: 2px solid white;
+  padding: 25px 50px;
+  font-size: 1.125rem !important;
+  border-radius: 10px !important;
+  line-height: 1.1; }
+
+#mrw-the-walk {
+  /* The Walk Nav */ }
+  #mrw-the-walk h1 {
+    font-size: 2.25em; }
+  #mrw-the-walk h2 {
+    font-size: 2.875rem;
+    font-family: brandon_grotesquebold; }
+  #mrw-the-walk h3 {
+    font-size: 1.875rem;
+    color: #002550; }
+  #mrw-the-walk h1, #mrw-the-walk h2, #mrw-the-walk h3 {
+    font-family: brandon_grotesqueblack;
+    text-transform: uppercase;
+    margin: 0px; }
+  #mrw-the-walk .thin {
+    font-family: brandon_grotesue_thin; }
+  #mrw-the-walk p {
+    font-family: brandon_grotesque_regularRg;
+    font-size: 1.125em;
+    line-height: 1; }
+  #mrw-the-walk::selection, #mrw-the-walk::-moz-selection {
+    background: red; }
+  #mrw-the-walk .desktop_image {
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    width: 29%;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    margin: 0px auto; }
+  #mrw-the-walk .mobile_image {
+    display: none; }
+  #mrw-the-walk section {
+    height: 100vh; }
+  #mrw-the-walk .bouncey {
+    animation: bounce2 2s infinite; }
+  #mrw-the-walk .level {
+    opacity: 0;
+    -moz-transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    -moz-transform: translate3d(0px, 50px, 0px);
+    -webkit-transform: translate3d(0px, 50px, 0px);
+    -o-transform: translate(0px, 50px);
+    -ms-transform: translate(0px, 50px);
+    transform: translate3d(0px, 50, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden; }
+    #mrw-the-walk .level.start {
+      opacity: 1;
+      -moz-transform: translate3d(0px, 0px, 0px);
+      -webkit-transform: translate3d(0px, 0px, 0px);
+      -o-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+      transform: translate3d(0px, 0px, 0px); }
+  #mrw-the-walk #cd-vertical-nav {
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: 145px;
+    padding: 40px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.3); }
+    #mrw-the-walk #cd-vertical-nav > ul {
+      margin: 0px; }
+      #mrw-the-walk #cd-vertical-nav > ul li {
+        display: inline-block; }
+        #mrw-the-walk #cd-vertical-nav > ul li a {
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+          font-family: brandon_grotesque_regularRg;
+          font-weight: 600;
+          text-transform: uppercase;
+          width: 100px; }
+          #mrw-the-walk #cd-vertical-nav > ul li a.is-selected .cd-dot {
+            background-size: 34px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            -webkit-transform: scale(2);
+            -moz-transform: scale(2);
+            -ms-transform: scale(2);
+            -o-transform: scale(2);
+            transform: scale(2);
+            transition: transform 0.3s, background-color 0.5s; }
+          #mrw-the-walk #cd-vertical-nav > ul li a span {
+            float: none;
+            display: block; }
+          #mrw-the-walk #cd-vertical-nav > ul li a:focus, #mrw-the-walk #cd-vertical-nav > ul li a:hover {
+            text-decoration: nonec; }
+      #mrw-the-walk #cd-vertical-nav > ul#male li#marker_20 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Man_20_RetirementWalk.gif"); }
+      #mrw-the-walk #cd-vertical-nav > ul#male li#marker_30 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Man_30_RetirementWalk.gif"); }
+      #mrw-the-walk #cd-vertical-nav > ul#male li#marker_40 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Man_40_RetirementWalk.gif"); }
+      #mrw-the-walk #cd-vertical-nav > ul#male li#marker_50 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Man_50_RetirementWalk.gif");
+        background-size: 56px; }
+      #mrw-the-walk #cd-vertical-nav > ul#male li#marker_60 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Man_60_RetirementWalk.gif"); }
+      #mrw-the-walk #cd-vertical-nav > ul#female li#marker_20 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Woman_20_RetirementWalk.gif"); }
+      #mrw-the-walk #cd-vertical-nav > ul#female li#marker_30 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Woman_30_RetirementWalk.gif");
+        background-size: 56px; }
+      #mrw-the-walk #cd-vertical-nav > ul#female li#marker_40 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Woman_40_RetirementWalk.gif"); }
+      #mrw-the-walk #cd-vertical-nav > ul#female li#marker_50 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Woman_50_RetirementWalk.gif"); }
+      #mrw-the-walk #cd-vertical-nav > ul#female li#marker_60 a.is-selected .cd-dot {
+        background-image: url("../../img/gif/Woman_60_RetirementWalk.gif"); }
+  #mrw-the-walk .text-block {
+    padding: 0px 33px 40px 27px; }
+  #mrw-the-walk .card {
+    display: none; }
+  #mrw-the-walk .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; }
+    #mrw-the-walk .sticky:before, #mrw-the-walk .sticky:after {
+      content: "";
+      display: table; }
+  #mrw-the-walk #section1 {
+    background-color: #5ee3a2; }
+    #mrw-the-walk #section1 .card p {
+      background-color: #5ee3a2; }
+    #mrw-the-walk #section1 .card.one h3 {
+      background-color: #43c988; }
+  #mrw-the-walk #section2 {
+    background-color: #fd9372; }
+    #mrw-the-walk #section2 .card p {
+      background-color: #fd9372; }
+    #mrw-the-walk #section2 .card.one h3 {
+      background-color: #df7f61; }
+    #mrw-the-walk #section2 .card.two h3 {
+      background-color: #f28b6b; }
+  #mrw-the-walk #section3 {
+    background-color: #6c6cf0; }
+    #mrw-the-walk #section3 .card p {
+      background-color: #6c6cf0; }
+    #mrw-the-walk #section3 .card.one h3 {
+      background-color: #5749c6; }
+    #mrw-the-walk #section3 .card.two h3 {
+      background-color: #5c4ecc; }
+    #mrw-the-walk #section3 .card.three h3 {
+      background-color: #6659d1; }
+  #mrw-the-walk #section4 {
+    background-color: #1a9635; }
+    #mrw-the-walk #section4 .card p {
+      background-color: #1a9635; }
+    #mrw-the-walk #section4 .card.one h3 {
+      background-color: #05731f; }
+    #mrw-the-walk #section4 .card.two h3 {
+      background-color: #087d24; }
+    #mrw-the-walk #section4 .card.three h3 {
+      background-color: #0f882c; }
+  #mrw-the-walk #section5 {
+    background-color: #d74827; }
+    #mrw-the-walk #section5 .card p {
+      background-color: #d74827; }
+    #mrw-the-walk #section5 .card.one h3 {
+      background-color: #a53b21; }
+    #mrw-the-walk #section5 .card.two h3 {
+      background-color: #b03e23; }
+    #mrw-the-walk #section5 .card.three h3 {
+      background-color: #bb462a; }
+    #mrw-the-walk #section5 .card.four h3 {
+      background-color: #cb4829; }
+  #mrw-the-walk .pulse_test {
+    width: 67px;
+    height: 67px;
+    position: absolute;
+    perspective: 800px;
+    transition: perspective 2s, transform 0.3s;
+    cursor: pointer;
+    z-index: 101; }
+    #mrw-the-walk .pulse_test:hover {
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg); }
+  #mrw-the-walk .obj {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.36);
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-animation: pulse 1s infinite alternate;
+    animation: pulse 1s infinite alternate; }
+    #mrw-the-walk .obj a {
+      font-family: brandon_grotesqueblack;
+      color: white;
+      font-size: 2.25rem;
+      line-height: 1.8; }
+      #mrw-the-walk .obj a:hover, #mrw-the-walk .obj a:focus {
+        text-decoration: none; }
+  #mrw-the-walk #next_steps_link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto 5px;
+    text-align: center;
+    font-size: 1.8em; }
+    #mrw-the-walk #next_steps_link a {
+      color: white;
+      font-family: brandon_grotesqueblack;
+      padding: 0.8em 1.2em 1.5em;
+      background-color: #1496c0;
+      border-radius: 5px 5px 0 0; }
+      #mrw-the-walk #next_steps_link a .thin {
+        display: none; }
+    #mrw-the-walk #next_steps_link i {
+      display: block;
+      margin: 0px auto;
+      width: 29px; }
+    #mrw-the-walk #next_steps_link.start {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 17px; }
+
+@media screen and (min-width: 769px) {
+  #mrw-the-walk {
+    overflow-x: hidden;
+    /* 20s */
+    /* 30s */
+    /* 40s */
+    /* 50s */
+    /* 60s */
+    /* Pulse Pop Up Style */ }
+    #mrw-the-walk section {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center bottom; }
+      #mrw-the-walk section h2 {
+        padding-top: 280px; }
+    #mrw-the-walk .sprite_container {
+      position: absolute;
+      display: block; }
+    #mrw-the-walk #section1 {
+      background-image: url(../../img/RW_bg_20s.svg); }
+      #mrw-the-walk #section1 .pulse_test.one {
+        top: 65%;
+        left: 39%; }
+      #mrw-the-walk #section1 .sprite_container {
+        width: 103px;
+        height: 378px;
+        background-image: url("../../img/_water_cooler_2.png");
+        right: 14%;
+        bottom: 4%;
+        animation: cooler 6.5s steps(43) infinite; }
+    #mrw-the-walk #section2 {
+      background-image: url(../../img/RW_bg_30s.svg); }
+      #mrw-the-walk #section2 .pulse_test.two {
+        top: 82%;
+        left: 25%; }
+      #mrw-the-walk #section2 .pulse_test.three {
+        top: 55%;
+        right: 29%; }
+      #mrw-the-walk #section2 .sprite_container {
+        width: 187px;
+        height: 234px;
+        background-image: url("../../img/_baby_2.png");
+        right: 29%;
+        bottom: 23.5%;
+        animation: baby 3s steps(21) infinite; }
+    #mrw-the-walk #section3 {
+      background-image: url(../../img/RW_bg_40s.svg); }
+      #mrw-the-walk #section3 .text-block {
+        margin-top: 75px; }
+      #mrw-the-walk #section3 .pulse_test.four {
+        bottom: 53%;
+        left: 24%; }
+      #mrw-the-walk #section3 .pulse_test.five {
+        left: 50%;
+        bottom: 14%; }
+      #mrw-the-walk #section3 .pulse_test.six {
+        right: 21%;
+        top: 55%; }
+      #mrw-the-walk #section3 .sprite_container {
+        width: 201px;
+        height: 369px;
+        background-image: url("../../img/_punching_bag_2.png");
+        right: 13%;
+        bottom: 20%;
+        animation: bag 1.6s steps(51) infinite; }
+    #mrw-the-walk #section4 {
+      background-image: url(../../img/RW_bg_50s.svg); }
+      #mrw-the-walk #section4 .pulse_test.seven {
+        bottom: 14%;
+        left: 25%; }
+      #mrw-the-walk #section4 .pulse_test.eight {
+        right: 43%;
+        top: 49%; }
+      #mrw-the-walk #section4 .pulse_test.nine {
+        right: 35%;
+        bottom: 8%; }
+      #mrw-the-walk #section4 .sprite_container {
+        width: 122px;
+        height: 135px;
+        background-image: url("../../img/_flower_2.png");
+        right: 0px;
+        left: 0px;
+        margin: 0px auto;
+        bottom: 16.2%;
+        animation: flower 3s steps(32) infinite; }
+    #mrw-the-walk #section5 {
+      background-image: url(../../img/RW_bg_60s.svg);
+      padding-bottom: 0px; }
+      #mrw-the-walk #section5 .text-block {
+        margin-top: -2%; }
+      #mrw-the-walk #section5 .pulse_test.ten {
+        bottom: 7%;
+        left: 13%; }
+      #mrw-the-walk #section5 .pulse_test.eleven {
+        bottom: 37%;
+        right: 49%; }
+      #mrw-the-walk #section5 .pulse_test.twelve {
+        bottom: 33%;
+        right: 8%; }
+      #mrw-the-walk #section5 .pulse_test.thirteen {
+        right: 28%;
+        bottom: 8%; }
+      #mrw-the-walk #section5 .sprite_container {
+        width: 325px;
+        height: 283px;
+        background-image: url("../../img/_locket_2.png");
+        right: -5%;
+        bottom: 2%;
+        animation: locket 1.2s steps(41) infinite; }
+    #mrw-the-walk h2 {
+      text-align: center; }
+    #mrw-the-walk .text-block {
+      background-color: rgba(255, 255, 255, 0.9);
+      width: 350px; }
+      #mrw-the-walk .text-block h3 {
+        padding-top: 30px;
+        margin-bottom: 20px;
+        line-height: 1.2; }
+      #mrw-the-walk .text-block .mobile_heading {
+        display: none; }
+      #mrw-the-walk .text-block p {
+        color: #363740;
+        line-height: 1.1; }
+      #mrw-the-walk .text-block.left {
+        margin-left: 4%; }
+      #mrw-the-walk .text-block.right {
+        margin-right: 4%;
+        float: right; } }
+@media screen and (max-width: 768px) {
+  .navbar a.logo img {
+    max-width: 193px;
+    height: 48px; }
+
+  #mrw-the-walk #cd-vertical-nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 32px 0px 10px;
+    top: 164px; }
+    #mrw-the-walk #cd-vertical-nav ul li {
+      width: 16%; }
+      #mrw-the-walk #cd-vertical-nav ul li a.is-selected .cd-dot {
+        background-size: 80%; }
+      #mrw-the-walk #cd-vertical-nav ul li .cd-dot {
+        margin: 0px auto 5px;
+        width: 35px !important; }
+      #mrw-the-walk #cd-vertical-nav ul li a {
+        width: 35px !important; }
+    #mrw-the-walk #cd-vertical-nav ul#female li#marker_30 a.is-selected .cd-dot {
+      background-size: 37px; }
+    #mrw-the-walk #cd-vertical-nav ul#male li#marker_50 a.is-selected .cd-dot {
+      background-size: 43px; }
+  #mrw-the-walk section {
+    height: auto !important; }
+  #mrw-the-walk .pulse_test, #mrw-the-walk .thin, #mrw-the-walk .desktop_image {
+    display: none; }
+  #mrw-the-walk .mobile_image, #mrw-the-walk .text-block, #mrw-the-walk h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block; }
+  #mrw-the-walk .mobile_image {
+    padding-top: 175px;
+    padding-bottom: 15px; }
+    #mrw-the-walk .mobile_image.flush {
+      padding-left: 0px;
+      padding-right: 0px; }
+  #mrw-the-walk h3 {
+    color: white; }
+  #mrw-the-walk h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px; }
+  #mrw-the-walk .text-block h3 {
+    display: none; }
+    #mrw-the-walk .text-block h3 br {
+      display: none; }
+  #mrw-the-walk .text-block .mobile_heading {
+    font-weight: bold;
+    display: inline-block; }
+  #mrw-the-walk .card {
+    display: block; }
+    #mrw-the-walk .card h3, #mrw-the-walk .card p {
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 1.125rem;
+      line-height: 1.4; }
+    #mrw-the-walk .card h3 {
+      padding: 20px 30px;
+      background-size: 30px 30px;
+      font-family: brandon_grotesque_regularRg;
+      background-repeat: no-repeat;
+      background-position: 92% center; }
+    #mrw-the-walk .card.one h3 {
+      background-image: url(../../img/one.svg); }
+    #mrw-the-walk .card.two h3 {
+      background-image: url(../../img/two.svg); }
+    #mrw-the-walk .card.three h3 {
+      background-image: url(../../img/three.svg); }
+    #mrw-the-walk .card.four h3 {
+      background-image: url(../../img/four.svg); }
+    #mrw-the-walk .card p {
+      padding-top: 15px;
+      min-height: 15em; }
+  #mrw-the-walk #next_steps img {
+    width: 80%; } }
+@media screen and (width: 768px) {
+  #mrw-the-walk .mobile_image {
+    padding-top: 70px; }
+    #mrw-the-walk .mobile_image.flush {
+      padding-top: 150px; }
+  #mrw-the-walk .card h3 {
+    height: 65px; }
+  #mrw-the-walk .card p {
+    min-height: 140px; }
+  #mrw-the-walk .card:last-child p {
+    min-height: 170px; }
+  #mrw-the-walk #section5 {
+    padding-bottom: 20em; }
+    #mrw-the-walk #section5 .four p {
+      min-height: 200px; } }
+@media screen and (min-width: 1366px) {
+  #mrw-the-walk {
+    /* 20s */
+    /* 30s */
+    /* 40s */
+    /* 50s */
+    /* 60s */ }
+    #mrw-the-walk h2 {
+      padding-top: 18%; }
+    #mrw-the-walk #section1 .pulse_test.one {
+      left: 40%; }
+    #mrw-the-walk #section1 .sprite_container {
+      right: 20%; }
+    #mrw-the-walk #section2 .pulse_test.two {
+      left: 28%; }
+    #mrw-the-walk #section2 .pulse_test.three {
+      right: 34%; }
+    #mrw-the-walk #section2 .sprite_container {
+      right: 30%; }
+    #mrw-the-walk #section3 .pulse_test.four {
+      left: 25%; }
+    #mrw-the-walk #section3 .pulse_test.five {
+      left: 50%; }
+    #mrw-the-walk #section3 .pulse_test.six {
+      right: 21%; }
+    #mrw-the-walk #section3 .sprite_container {
+      right: 13%; }
+    #mrw-the-walk #section4 .pulse_test.seven {
+      left: 25%; }
+    #mrw-the-walk #section4 .pulse_test.eight {
+      right: 43%; }
+    #mrw-the-walk #section4 .pulse_test.nine {
+      right: 35%; }
+    #mrw-the-walk #section5 .pulse_test.ten {
+      left: 17%; }
+    #mrw-the-walk #section5 .pulse_test.eleven {
+      right: 46%; }
+    #mrw-the-walk #section5 .pulse_test.twelve {
+      right: 8%; }
+    #mrw-the-walk #section5 .pulse_test.thirteen {
+      right: 31%; }
+    #mrw-the-walk #section5 .sprite_container {
+      right: 3%; } }
+@media screen and (min-height: 768px) and (min-width: 769px) {
+  #section4 {
+    background-image: url(../../img/RW_bg_50s.svg); } }
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  #mrw-the-walk section {
+    background-size: 100%; }
+  #mrw-the-walk #section2 .desktop_image {
+    width: 33%; }
+  #mrw-the-walk #section3 .sprite_container {
+    right: 10%;
+    bottom: 12%; }
+  #mrw-the-walk #section4 .sprite_container {
+    bottom: 85px; }
+  #mrw-the-walk #section4 .pulse_test.seven {
+    bottom: 10%;
+    left: 21%; }
+  #mrw-the-walk #section4 .pulse_test.eight {
+    top: 45%; }
+  #mrw-the-walk #section4 .pulse_test.nine {
+    right: 39%; }
+  #mrw-the-walk #section5 .text-block {
+    margin-top: 1%; }
+  #mrw-the-walk #section5 .pulse_test.ten {
+    bottom: 3%;
+    left: 17%; } }
+@media screen and (min-height: 850px) and (min-width: 1024px) {
+  #mrw-the-walk #section2 .sprite_container {
+    bottom: 18%;
+    right: 29%; }
+  #mrw-the-walk #section2 .desktop-image {
+    width: 33%; }
+  #mrw-the-walk #section3 .text-block {
+    margin-top: 15%; }
+  #mrw-the-walk #section4 .sprite_container {
+    bottom: 13%; }
+  #mrw-the-walk #section4 .pulse_test.eight {
+    top: 54%; }
+  #mrw-the-walk #section5 .pulse_test.eleven {
+    bottom: 30%; }
+  #mrw-the-walk #section5 .pulse_test.twelve {
+    bottom: 17%; } }
+@media screen and (min-height: 1070px) {
+  #mrw-the-walk #section2 .sprite_container {
+    bottom: 20%;
+    right: 30%; } }
+@media screen and (max-width: 320px) {
+  #mrw-the-walk .mobile_image {
+    padding-top: 221px; }
+  #mrw-the-walk .card h3 {
+    font-size: 1rem; }
+  #mrw-the-walk .card p {
+    font-size: 17px;
+    line-height: 1; }
+  #mrw-the-walk #section5 .two {
+    margin: 0px !important; } }
+/* Begin Gender Animation Keyframes */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@-moz-keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+/* Begin Sprite Keyframes */
+@keyframes cooler {
+  20%,
+100% {
+    background-position: -4429px; } }
+@keyframes baby {
+  20%,
+100% {
+    background-position: -3927px; } }
+@keyframes bag {
+  100% {
+    background-position: -10251px; } }
+@keyframes flower {
+  from {
+    background-position: 3904px; }
+  80% {
+    background-position: -3904px; }
+  100% {
+    background-position: -3904px; } }
+@keyframes locket {
+  40%,
+100% {
+    background-position: -13325px; } }
+/* Begin Pulse Keyframes */
+@-webkit-keyframes pulse {
+  0% {
+    transform: translateZ(0px); }
+  100% {
+    transform: translateZ(100px); } }
+@keyframes pulse {
+  0% {
+    transform: translateZ(0px); }
+  100% {
+    transform: translateZ(100px); } }
+/* Bouncey */
+@keyframes bounce2 {
+  0%,
+20%,
+50%,
+80%,
+100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-10px); }
+  60% {
+    transform: translateY(-5px); } }
+/*# sourceMappingURL=stylesheet-walk.css.map */
+
+/*# sourceMappingURL=stylesheet-walk.css.map */

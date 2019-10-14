@@ -1,0 +1,132 @@
+body {
+	padding-top: 0;
+}
+
+header, footer {
+	display: none !important;
+}
+
+.hero.retirement-reality.lp,
+.hero.whole-life.lp {
+    position: relative;
+    max-height: 525px;
+}
+
+.hero.retirement-reality.lp .left,
+.hero.whole-life.lp .left {
+    background-color: transparent;
+}
+
+.hero.retirement-reality.lp .headline,
+.hero.whole-life.lp .headline {
+    color: white;
+    margin-bottom: 1.203875rem;
+}
+
+.hero.retirement-reality.lp .subhead,
+.hero.whole-life.lp .subhead {
+    color: white;
+}
+
+@media screen and (min-width: 501px) {
+    .hero.retirement-reality.lp {
+        background-image: url(../img/re-hero-home.jpg);
+	}
+	.hero.whole-life.lp {
+        background-image: url(../img/c2c/hero-wholeistic-mobile.jpg);
+		background-size: cover;
+	}
+
+
+	.hero.retirement-reality.lp .left,
+	.hero.whole-life.lp .left {
+        width: 84%;
+        margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+    }
+
+	.hero.retirement-reality.lp .left .headline, .hero.retirement-reality.lp .left .subhead,
+	.hero.whole-life.lp .left .headline, .hero.whole-life.lp .left .subhead{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+	.hero.retirement-reality.lp .left .headline,
+	.hero.whole-life.lp .left .headline {
+        font-size: 3.125rem;
+	}
+	.hero.retirement-reality.lp .left .headline {
+		font-family: "brandon_grotesqueblack";
+		font-size: 3.75rem;
+	}
+
+	.hero.retirement-reality.lp .left .subhead,
+	.hero.whole-life.lp .left .subhead {
+        font-size: 1.875rem;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .hero.retirement-reality.lp {
+        background-image: url(../img/re-hero-home.jpg);
+    }
+
+	.hero.retirement-reality.lp .left,
+	.hero.whole-life.lp .left {
+        width: 30.1875rem;
+        max-width: 30.5rem;
+        box-sizing: content-box;
+    }
+
+	.hero.retirement-reality.lp .left .headline,
+	.hero.whole-life.lp .left .headline {
+        font-size: 3.125rem;
+    }
+
+	.hero.retirement-reality.lp .left .subhead,
+	.hero.whole-life.lp .left .subhead {
+        font-size: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+	.hero.retirement-reality.lp .left .headline,
+	.hero.whole-life.lp .left .headline {
+        font-size: 2.375rem;
+    }
+
+	.hero.retirement-reality.lp .left .subhead,
+	.hero.whole-life.lp .left .subhead {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+	.hero.whole-life.lp {
+        background-image: url(../img/c2c/Landing_Hero_desktop.jpg);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+	.hero.whole-life.lp {
+		background-image: url(../img/c2c/hero-wholeistic-mobile.jpg);
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.hero.retirement-reality.lp {
+        background-image: url(../img/re-hero-home-m.jpg);
+	}
+	
+	.hero.retirement-reality.lp .left,
+	.hero.whole-life.lp .left {
+		text-align: left;
+	}
+}
+  
+  
+

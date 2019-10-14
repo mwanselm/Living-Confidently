@@ -1,0 +1,31 @@
+/* Colors */
+
+.search-title { text-align: center; }
+.search-title h1 { color: #c1a236; text-transform: uppercase; font-family: "brandon_grotesquemedium"; font-weight: normal; letter-spacing: 1px; }
+.search-title p { color: #5a5a5f; font-family: "Minion Pro"; }
+.search-title p span { font-style: italic; }
+
+.search-container { padding-bottom: 50px; }
+.search-container .nav-next { float: left; }
+.search-container .nav-previous { float: right; }
+
+.search-result { border-top: 1px solid #d8dbe4; }
+.search-result a { font-family: "brandon_grotesquemedium"; }
+.search-result h2 a { color: #002c5f; font-weight: normal; }
+.search-result a.result-url { color: #6f91a9; display: block; }
+.search-result .results-preview { font-family: "Minion Pro"; color: #5a5a5f; line-height: 1.5; }
+.search-result .results-preview .keyword { font-weight: bold; }
+
+@media only screen and (min-width: 769px) { .search-title, .search-result { width: 774.5px; margin-right: auto; margin-bottom: 33px; margin-left: auto; }
+  .search-title { padding-top: 40.5px; }
+  .search-title h1 { font-size: 1.25em; margin-bottom: 30px; }
+  .search-result { padding-top: 15px; padding-bottom: 15px; }
+  .search-result h2 { font-size: 1.25em; margin-bottom: 10px; }
+  .search-result .result-url { font-size: 0.9375em; margin-bottom: 10px; } }
+@media only screen and (max-width: 768px) { .search-title, .search-result { width: 90%; margin-right: auto; margin-bottom: 33.33px; margin-left: auto; }
+  .search-title { padding-top: 60px; padding-bottom: 60px; }
+  .search-title h1 { font-size: 1.66625em; margin-top: 0px; margin-bottom: 10px; }
+  .search-title p { font-size: 1.25em; }
+  .search-result { padding-top: 33.33px; padding-bottom: 33.33px; }
+  .search-result h2 { font-size: 1.25em; margin: 0px; }
+  .search-result .result-url { margin-top: 8px; margin-bottom: 15px; } }

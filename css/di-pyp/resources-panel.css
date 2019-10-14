@@ -1,0 +1,67 @@
+/* Colors */
+#resources-container {
+  position: relative;
+  overflow: visible;
+}
+
+#resources-blue {
+  background-color: #002550;
+  background-image: url(../../img/icon-pencil-ruler.svg);
+  background-position: 93% 20px;
+  background-repeat: no-repeat;
+  background-size: 44.33px;
+  padding: 3.125rem 2.04rem;
+  margin-right: 0;
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  bottom: -2rem; }
+  #resources-blue:before {
+    display: none; }
+  #resources-blue h2,
+  #resources-blue ul li a {
+    color: white; }
+  #resources-blue h2 {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    background-image: none; }
+  #resources-blue ul li a {
+    font-family: "brandon_grotesque_regularRg";
+    font-size: 1.25rem;
+    padding: 0 0 0 2rem;
+    display: block;
+    position: relative;
+    margin-bottom: 22px; }
+  #resources-blue ul li:last-child a {
+    margin-bottom: 0; }
+  #resources-blue ul li a svg {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    text-align: center;
+    width: 23px; }
+  @media screen and (min-width: 66.66rem) {
+    #resources-blue {
+      width: 16.5625rem;
+      position: absolute;
+      bottom: -1rem;
+      right: 3%;
+      z-index: 10; }
+      #resources-blue h2 {
+        font-size: 0.875rem;
+        margin-left: 2rem; }
+      #resources-blue ul li a {
+        font-size: 1.125rem; } }
+  @media screen and (max-width: 72.875rem) {
+    #resources-blue {
+      bottom: -1rem; } }
+  @media screen and (max-width: 48rem) {
+    #resources-blue {
+      padding-left: 0;
+      padding-right: 0; }
+      #resources-blue h2, #resources-blue ul li a {
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto; } }

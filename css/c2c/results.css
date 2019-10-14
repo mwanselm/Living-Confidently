@@ -1,0 +1,415 @@
+/* Colors */
+section.results-title {
+  max-height: inherit;
+  height: auto;
+  text-align: center; }
+  section.results-title .small {
+    color: #c1a236;
+    text-transform: uppercase;
+    font-family: "brandon_grotesqueblack";
+    letter-spacing: 2px; }
+  section.results-title h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px; }
+  section.results-title h1, section.results-title p {
+    color: #002c5f;
+    font-family: "brandon_grotesquelight";
+    width: 89%;
+    margin: 0 auto;
+    max-width: 600px; }
+  section.results-title p {
+    color: #5a5a5f; }
+section.blurb-facts .blue-blurb, section.blurb-facts .results-facts {
+  position: relative;
+  height: 100%;
+  float: left;
+  width: 100%; }
+section.blurb-facts .blue-blurb {
+  background-color: #328abd;
+  color: white;
+  font-family: "brandon_grotesquelight"; }
+  section.blurb-facts .blue-blurb p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    max-width: 355px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+section.blurb-facts .results-facts {
+  background-color: #d8dbe4;
+  color: #002c5f; }
+  section.blurb-facts .results-facts .facts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    max-width: 425px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  section.blurb-facts .results-facts p.title {
+    font-family: "brandon_grotesqueblack";
+    text-transform: uppercase; }
+section.results-page-icons {
+  text-align: center; }
+  section.results-page-icons p, section.results-page-icons figcaption {
+    color: #002c5f; }
+  section.results-page-icons figure {
+    display: inline-block; }
+    section.results-page-icons figure img {
+      opacity: 0; }
+      section.results-page-icons figure img.animated {
+        opacity: 1; }
+  section.results-page-icons figcaption {
+    font-family: "brandon_grotesqueblack";
+    text-transform: uppercase; }
+section.results-links {
+  background-color: #f5f5f5;
+  color: #002c5f;
+  text-align: center; }
+  section.results-links > p {
+    font-family: "brandon_grotesquemedium";
+    width: 80%;
+    max-width: 715px;
+    margin: 0 auto; }
+  section.results-links .link {
+    text-align: left;
+    display: inline-block;
+    width: 80%;
+    max-width: 297px;
+    vertical-align: top;
+    margin-left: 2%;
+    margin-right: 2%; }
+    section.results-links .link:first-of-type {
+      margin-left: 0px; }
+    section.results-links .link:last-of-type {
+      margin-right: 0px; }
+    section.results-links .link .body {
+      margin-bottom: 30px;
+      line-height: 1.2; }
+  section.results-links p.title {
+    font-family: "brandon_grotesqueblack";
+    margin-bottom: 8px; }
+  section.results-links p.body {
+    font-family: "Minion Pro"; }
+  section.results-links a {
+    font-family: "brandon_grotesquemedium";
+    background: url(../../img/c2c/arrow-right.svg) no-repeat center right;
+    display: inline-block;
+    color: #002c5f;
+    background-size: 15px 8px;
+    padding-right: 20px; }
+section.results-video {
+  padding: 60px 0px;
+  background: #002c5f; }
+  section.results-video .video-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+section.results-blurb {
+  text-align: center; }
+  section.results-blurb p, section.results-blurb a {
+    font-family: "brandon_grotesquemedium";
+    color: #002c5f;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 662px; }
+  section.results-blurb .tiles {
+    text-align: left;
+    position: relative;
+    width: 325px;
+    height: 335px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: top;
+    margin-bottom: 40px; }
+    section.results-blurb .tiles img {
+      width: 100%;
+      margin-bottom: 10px; }
+    section.results-blurb .tiles .resource-type, section.results-blurb .tiles .resource-title {
+      font-family: "brandon_grotesquebold";
+      text-align: left;
+      text-transform: uppercase; }
+    section.results-blurb .tiles .resource-type, section.results-blurb .tiles .resource-title, section.results-blurb .tiles .resource-icons {
+      color: #5a5a5f; }
+    section.results-blurb .tiles .resource-type {
+      display: none; }
+    section.results-blurb .tiles .resource-title {
+      width: 83%;
+      line-height: 1;
+      text-decoration: none; }
+    section.results-blurb .tiles .resource-icons {
+      font-family: "brandon_grotesquemedium";
+      display: none; }
+      section.results-blurb .tiles .resource-icons .views {
+        background-image: url(../../img/c2c/eye.svg);
+        padding-left: 33px; }
+      section.results-blurb .tiles .resource-icons .comments {
+        background-image: url(../../img/c2c/comment.svg);
+        padding-left: 23px;
+        margin-left: 15px; }
+      section.results-blurb .tiles .resource-icons .views, section.results-blurb .tiles .resource-icons .comments {
+        background-position: center left;
+        background-repeat: no-repeat; }
+section.map-pin {
+  display: none; }
+  section.map-pin .center {
+    text-align: center; }
+    section.map-pin .center p {
+      text-align: left;
+      display: inline-block;
+      width: 80%;
+      max-width: 385px;
+      color: white;
+      vertical-align: top; }
+      section.map-pin .center p:first-of-type {
+        margin-right: 5%; }
+      section.map-pin .center p:last-of-type {
+        margin-left: 5%; }
+      section.map-pin .center p.link {
+        color: #c1a236; }
+
+@media only screen and (max-width: 768px) {
+  section.results-title {
+    padding: 50px 0px 30px; }
+    section.results-title .small {
+      margin-bottom: 15px;
+      font-size: 1em; }
+    section.results-title h1 {
+      margin-bottom: 25px; }
+    section.results-title p {
+      font-size: 1.146em;
+      line-height: 1.4; }
+  section.blurb-facts {
+    text-align: center; }
+    section.blurb-facts .blue-blurb p, section.blurb-facts .results-facts .facts {
+      position: initial;
+      -webkit-transform: translate(0%, 0%);
+      -moz-transform: translate(0%, 0%);
+      -ms-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+      margin: 0 auto; }
+    section.blurb-facts .blue-blurb {
+      padding: 40px 0px 30px; }
+      section.blurb-facts .blue-blurb p {
+        line-height: 1.6; }
+    section.blurb-facts .results-facts {
+      padding: 30px 0px; }
+      section.blurb-facts .results-facts .facts {
+        width: 80%; }
+        section.blurb-facts .results-facts .facts .fact {
+          margin-bottom: 20px; }
+          section.blurb-facts .results-facts .facts .fact:last-of-type {
+            margin-bottom: 0px; }
+        section.blurb-facts .results-facts .facts .title {
+          margin-bottom: 8px; }
+        section.blurb-facts .results-facts .facts p {
+          line-height: 1.4; }
+  section.results-page-icons {
+    padding: 20px 0px 40px; }
+    section.results-page-icons figure {
+      display: block; }
+      section.results-page-icons figure img {
+        width: 173px; }
+  section.results-links {
+    padding: 30px 0px; }
+    section.results-links > p {
+      font-size: 1.666em;
+      margin-bottom: 40px; }
+    section.results-links .link {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      text-align: center; }
+      section.results-links .link:last-of-type {
+        margin-bottom: 0px; }
+      section.results-links .link .title {
+        margin-bottom: 12px; }
+      section.results-links .link .body {
+        margin-bottom: 20px;
+        font-family: "Minion Pro";
+        line-height: 1.4; }
+  section.results-blurb {
+    padding: 30px 0px; }
+    section.results-blurb > p {
+      font-size: 1.250em;
+      margin-bottom: 20px; }
+    section.results-blurb .results-tiles {
+      overflow-x: auto; }
+      section.results-blurb .results-tiles .tiles {
+        background-image: none;
+        height: auto; }
+        section.results-blurb .results-tiles .tiles img {
+          width: 247px;
+          margin: 0 auto 10px; }
+        section.results-blurb .results-tiles .tiles .resource-type, section.results-blurb .results-tiles .tiles .resource-title, section.results-blurb .results-tiles .tiles .resource-icons {
+          width: 215px; }
+        section.results-blurb .results-tiles .tiles .resource-type {
+          font-size: .75em;
+          margin-bottom: 8px; }
+        section.results-blurb .results-tiles .tiles .resource-title {
+          margin-bottom: 8px;
+          display: block; }
+        section.results-blurb .results-tiles .tiles .resource-icons {
+          margin: 0 auto; }
+          section.results-blurb .results-tiles .tiles .resource-icons .comments {
+            background-image: url(../../img/c2c/comment_gray.svg); }
+          section.results-blurb .results-tiles .tiles .resource-icons .views {
+            padding-left: 30px;
+            background-image: url(../../img/c2c/eye_gray.svg); }
+          section.results-blurb .results-tiles .tiles .resource-icons .views, section.results-blurb .results-tiles .tiles .resource-icons .comments {
+            background-size: 18px; }
+  section.map-pin video {
+    -webkit-transform: translate(-95%, -50%) !important;
+    -moz-transform: translate(-95%, -50%) !important;
+    -ms-transform: translate(-95%, -50%) !important;
+    transform: translate(-95%, -50%) !important;
+    left: 95% !important; }
+  section.map-pin .center {
+    -webkit-transform: translate(-20%, -50%);
+    -moz-transform: translate(-20%, -50%);
+    -ms-transform: translate(-20%, -50%);
+    transform: translate(-20%, -50%);
+    left: 20%;
+    width: 70%; }
+    section.map-pin .center p {
+      font-size: 1.146em; }
+  section.find-rep {
+    padding: 30px 0px;
+    text-align: center; }
+    section.find-rep p {
+      color: #002c5f;
+      width: 85%;
+      margin: 0 auto; }
+    section.find-rep .btn {
+      height: 41px;
+      line-height: 41px;
+      font-size: 1em; } }
+@media only screen and (min-width: 769px) {
+  section.results-title {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    section.results-title h1 {
+      font-size: 1.667em;
+      margin-bottom: 50px; }
+    section.results-title p.small {
+      font-size: 0.750em; }
+  section.blurb-facts {
+    height: 530px; }
+    section.blurb-facts .blue-blurb, section.blurb-facts .results-facts {
+      float: left;
+      width: 50%;
+      clear: none; }
+    section.blurb-facts .results-facts {
+      font-size: 0.750em; }
+      section.blurb-facts .results-facts .fact {
+        margin-bottom: 30px; }
+        section.blurb-facts .results-facts .fact:last-of-type {
+          margin-bottom: 0px; }
+      section.blurb-facts .results-facts.results-1 .facts {
+        max-width: 400px; }
+      section.blurb-facts .results-facts.results-2 .facts {
+        max-width: 350px; }
+      section.blurb-facts .results-facts.results-3 .facts {
+        max-width: 350px; }
+      section.blurb-facts .results-facts.results-4 .facts {
+        max-width: 390px; }
+  section.results-page-icons {
+    padding: 40px 0px 20px; }
+    section.results-page-icons figure:first-of-type {
+      margin-right: 150px; }
+    section.results-page-icons figcaption {
+      font-size: 0.750em;
+      margin-top: 20px; }
+  section.results-links {
+    padding: 60px 0px; }
+    section.results-links > p {
+      font-size: 1.667em;
+      margin-bottom: 65px; }
+    section.results-links .link {
+      font-size: 0.750em; }
+    section.results-links.results-1 .link {
+      max-width: 315px; }
+    section.results-links.results-2 .link {
+      max-width: 315px; }
+    section.results-links.results-3 .link {
+      max-width: 323px; }
+    section.results-links.results-4 .link {
+      max-width: 315px; }
+  section.results-blurb {
+    padding: 60px 0px; }
+    section.results-blurb > p {
+      font-size: 1.250em;
+      margin-bottom: 105px; }
+    section.results-blurb .tiles .resource-type, section.results-blurb .tiles .resource-icons {
+      font-size: 0.500em; }
+    section.results-blurb .tiles .resource-title {
+      font-size: .85em; }
+  section.results-slider {
+    display: none !important; }
+  section.results-tiles {
+    margin: 0 auto;
+    width: 80%; }
+    section.results-tiles .tiles .resource-icons .views {
+      background-size: 27px 18px; }
+    section.results-tiles .tiles .resource-icons .comments {
+      background-size: 23px; } }
+@media screen and (width: 768px) {
+  section.blurb-facts .blue-blurb p {
+    font-size: 1.146em;
+    max-width: 475px; }
+
+  section.blurb-facts .results-facts .facts {
+    max-width: 550px; }
+
+  section.blurb-facts .results-facts .facts .fact {
+    width: 44%;
+    padding: 0px 12px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left; }
+
+  section.results-links .link {
+    max-width: 415px; }
+
+  section.results-page-icons figure {
+    display: inline-block;
+    width: 35%; }
+
+  section.results-blurb p {
+    max-width: 520px;
+    font-family: "brandon_grotesquemedium"; }
+
+  .results-tiles.mobile {
+    display: none; }
+
+  .results-tiles.desktop {
+    display: block !important; }
+
+  section.results-blurb .tiles {
+    width: 230px; }
+
+  section.map-pin .center p {
+    max-width: 375px; }
+
+  section.find-rep p {
+    padding: 12px 0px;
+    font-size: 1.146em;
+    font-family: "brandon_grotesquemedium";
+    max-width: 440px; } }
+/* Retina Images */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  section.results-blurb .tiles.resources1 {
+    background-image: url(../../img/c2c/resource1-m_bg-2x.jpg); }
+  section.results-blurb .tiles.resources2 {
+    background-image: url(../../img/c2c/resource2-m_bg-2x.jpg); }
+  section.results-blurb .tiles.resources3 {
+    background-image: url(../../img/c2c/resource3-m_bg-2x.jpg); } }
+

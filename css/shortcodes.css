@@ -1,0 +1,12 @@
+/* Styles for custom shortcodes go here */
+
+/* Twelve Steps e-Book */
+.twelve_steps_e_book_shortcode { padding:20px 0; }
+	.twelve_steps_e_book_shortcode a { display:block; width:233px; margin:auto; text-align:center; }
+	.twelve_steps_e_book_shortcode a.download-button { margin-bottom:10px; }
+	.twelve_steps_e_book_shortcode a.mobile { display:none; }
+
+@media screen and (max-width: 768px) {
+	.twelve_steps_e_book_shortcode a.desktop { display:none; }
+	.twelve_steps_e_book_shortcode a.mobile { display:block; }
+}

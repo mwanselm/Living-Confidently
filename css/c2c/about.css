@@ -1,0 +1,244 @@
+/* Colors */
+
+section.about-header {
+	text-align: center;
+}
+section.about-header h1 {
+	margin-top: 0px;
+	font-family: "brandon_grotesquelight";
+	font-weight: normal;
+	color: #002c5f;
+	letter-spacing: 2px;
+}
+section.about-header p {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.146em;
+	line-height: 1.4;
+	font-family: "brandon_grotesquelight";
+	color: #5a5a5f;
+	max-width: 550px;
+}
+section.about-carousel .wipe-overlay {
+	background-color: #328abd !important;
+}
+section.about-carousel .about-slider {
+	height: 100%;
+}
+section.about-carousel .about-slider .c-left .c-content .c-body {
+	font-family: "brandon_grotesquelight";
+}
+
+section.about-downloads .center {
+	text-align: center;
+}
+
+section.about-downloads .center a {
+	color: #002c5f;
+}
+@media only screen and (max-width: 768px) {
+	section.hero.about {
+		background-image: url(../../img/c2c/about-hero-m.jpg);
+		height: 53vh;
+		min-height: 354px;
+	}
+	section.about-header {
+		padding: 30px 0px;
+	}
+	section.about-header .center {
+		position: initial;
+		-webkit-transform: translate(0%, 0%);
+		-moz-transform: translate(0%, 0%);
+		-ms-transform: translate(0%, 0%);
+		transform: translate(0%, 0%);
+		text-align: center;
+	}
+	section.about-mobile {
+		height: 340px;
+		overflow: hidden;
+	}
+	section.about-mobile .about-mobile-slider {
+		height: 100%;
+	}
+	section.about-mobile .about-mobile-slider .slick-next {
+		top: 66px;
+	}
+	section.about-mobile .about-mobile-slider .slide {
+		height: 340px;
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		background-color: #d8dbe4;
+	}
+	section.about-mobile .about-mobile-slider .slide.slick-active .copy-block {
+		background-color: rgba(0, 44, 95, 0.9);
+	}
+	section.about-mobile .about-mobile-slider .slide .copy-block {
+		z-index: 100;
+		background-color: rgba(0, 44, 95, 0);
+		-webkit-transition: background-color 0.3s ease-in 0.9s;
+		-moz-transition: background-color 0.3s ease-in 0.9s;
+		-ms-transition: background-color 0.3s ease-in 0.9s;
+		-o-transition: background-color 0.3s ease-in 0.9s;
+		transition: background-color 0.3s ease-in 0.9s;
+		height: 100%;
+	}
+	section.about-mobile .about-mobile-slider .slide .copy-block p {
+		width: 282px;
+		opacity: 0;
+		-webkit-animation-delay: 1.2s;
+		/* Chrome, Safari, Opera */
+		animation-delay: 1.2s;
+		margin-left: 34px;
+	}
+	section.about-mobile .about-mobile-slider .slide .copy-block p.body {
+		color: white;
+		font-size: 1.111em;
+		font-family: "brandon_grotesquelight";
+	}
+	section.about-mobile .about-mobile-slider .slide img {
+		height: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+	section.about-mobile .about-mobile-slider .slide#priority-1 .body {
+		margin-top: 125px;
+	}
+	section.about-mobile .about-mobile-slider .slide#priority-2 .body {
+		margin-top: 125px;
+	}
+	section.about-mobile .about-mobile-slider .slide#priority-3 .body {
+		margin-top: 100px;
+	}
+	section.about-mobile .about-mobile-slider .slide#priority-4 .body {
+		margin-top: 150px;
+	}
+	section.about-downloads {
+		padding: 20px 0px;
+		text-align: center;
+	}
+	section.about-downloads .center {
+		position: initial;
+		-webkit-transform: translate(0%, 0%);
+		-moz-transform: translate(0%, 0%);
+		-ms-transform: translate(0%, 0%);
+		transform: translate(0%, 0%);
+	}
+	section.about-downloads .center figure {
+		width: 60%;
+		margin: 0 auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	section.about-downloads .center figure svg {
+		width: 52px;
+		margin: 0 auto 25px;
+	}
+	section.about-downloads .center figure figcaption {
+		width: 148px;
+		margin: 0 auto;
+	}
+	section.about-downloads .center figure figcaption a {
+		width: 125px;
+		display: block;
+		margin: 0 auto;
+	}
+	section.about-downloads .center .d-left figure {
+/*		border-bottom: 1px solid #bbc5d2;*/
+	}
+}
+@media only screen and (min-width: 769px) {
+	section.about.hero {
+		background-image: url(../../img/c2c/about-hero.jpg);
+	}
+	section.about.hero h1 {
+		font-size: 2em;
+	}
+	section.about-header {
+		font-family: "brandon_grotesquelight";
+		color: #002c5f;
+		padding: 40px 0px;
+	}
+	section.about-header p {
+		width: 80%;
+		max-width: 525px;
+		margin: 0 auto;
+	}
+	section.about-carousel {
+		max-height: 475px;
+	}
+	section.about-carousel .about-slider div.slick-slide:nth-child(1) .c-content {
+		margin-top: 190px;
+	}
+	section.about-carousel .about-slider div.slick-slide:nth-child(2) .c-content {
+		margin-top: 190px;
+	}
+	section.about-carousel .about-slider div.slick-slide:nth-child(3) .c-content {
+		margin-top: 190px;
+	}
+	section.about-carousel .about-slider div.slick-slide:nth-child(4) .c-content {
+		margin-top: 200px;
+	}
+	section.about-carousel .about-slider .c-left.full-width {
+		background: #328abd !important;
+	}
+	section.about-carousel .about-slider .c-left .c-content .c-body {
+		margin-bottom: 0px;
+		font-size: 1em;
+	}
+	section.about-carousel .about-slider .c-left .c-content p {
+		color: white;
+	}
+	section.about-carousel .about-slider .c-right img {
+		min-height: initial !important;
+		width: 100%;
+	}
+	section.about-downloads {
+		height: 400px;
+	}
+}
+@media screen and (width: 768px) {
+	section.about-downloads .center .d-left,
+	section.about-downloads .center .d-right {
+		width: 49.5%;
+		float: left;
+		text-align: center;
+	}
+	/* section.about-downloads .center .d-left {
+    border-right: 1px solid #bbc5d2; }*/
+	section.about-downloads .center .d-left figure {
+		border-bottom: 0px;
+	}
+	section.about-downloads .center figure figcaption {
+		width: 220px;
+	}
+}
+
+/* Retina Images */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+	section.hero.about {
+		background-image: url(../../img/c2c/about-hero-2x.jpg);
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 48em),
+only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 48em),
+only screen and (-o-min-device-pixel-ratio: 2 / 1) and (max-width: 48em),
+only screen and (min-device-pixel-ratio: 2) and (max-width: 48em),
+only screen and (min-resolution: 192dpi) and (max-width: 48em),
+only screen and (min-resolution: 2dppx) and (max-width: 48em) {
+	section.hero.about {
+		background-image: url(../../img/c2c/about-hero-m-2x.jpg);
+	}
+}
+

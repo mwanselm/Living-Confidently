@@ -1,0 +1,22 @@
+#oops { width: 100%; background-color: #151e4b; height: 833px; }
+#oops .wrapper { width: 100%; max-width: 1440px; margin: 0 auto; height: 833px; padding: 0 25px; box-sizing: border-box; position: relative; background-image: url(../img/404.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; }
+#oops .wrapper div { padding: 95px 0 0 0; position: relative; z-index: 10; width: 270px; }
+#oops .wrapper div h1 { color: #fff; font-size: 112px; font-family: "brandon_grotesquebold"; margin: 0; }
+#oops .wrapper div h3 { color: #fff; font-size: 30px; line-height: 36px; font-family: "brandon_grotesquelight"; text-transform: none; }
+#oops .wrapper div p { margin: 20px 0; color: #fff; font-family: "brandon_grotesquelight"; }
+#oops .wrapper div p a { color: #328abd; font-size: 24px; line-height: 36px; text-decoration: none; font-family: "brandon_grotesque_regularRg"; }
+#oops .wrapper div p.code { font-size: 18px; border-bottom: 1px solid #fff; padding-bottom: 20px; }
+#oops .wrapper div p.links { font-size: 24px; }
+#oops .wrapper #calculator { position: absolute; z-index: 1; top: 50%; left: 50%; margin: -289px 0 0 -422px; width: 844px; height: 578px; }
+
+@media only screen and (max-width: 1030px) { #oops .wrapper #calculator { position: absolute; z-index: 1; top: 50%; left: 50%; margin: -216.75px 0 0 -316.5px; width: 633px; height: 433.5px; } }
+@media only screen and (max-width: 900px) { #oops { height: auto; }
+  #oops .wrapper { height: auto; background-position: 0 bottom; background-size: 100%; }
+  #oops .wrapper div { padding: 25px 0 0 0; position: relative; z-index: 10; width: 100%; }
+  #oops .wrapper div h1 { font-size: 50px; text-align: center; margin: 0 0 20px 0; }
+  #oops .wrapper div h3 { font-size: 20px; line-height: 24px; text-align: center; }
+  #oops .wrapper div p { margin: 20px 0; color: #fff; font-family: "brandon_grotesquelight"; text-align: center; }
+  #oops .wrapper div p a { color: #328abd; font-size: 24px; line-height: 36px; text-decoration: none; font-family: "brandon_grotesque_regularRg"; }
+  #oops .wrapper div p.code { font-size: 16px; }
+  #oops .wrapper div p.links { font-size: 24px; }
+  #oops .wrapper #calculator { position: relative; z-index: 1; top: auto; left: auto; float: right; margin: 0px 0 0 0px; width: 281px; height: 193px; } }

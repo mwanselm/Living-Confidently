@@ -1,0 +1,218 @@
+.no-overflow{overflow:hidden;}
+.find-a-rep-outer{max-width:1180px;width:80%;margin:0 auto;}
+
+#repData-s{padding:40px 0;}
+
+#rep_first_slider{margin-left:-2000px;padding-left:2000px;margin-right:-2000px;padding-right:2000px;}
+
+#rep_second_slider, #rep_third_slider{background-color:#fff;}
+
+#rep_first_slider, .contact-top{
+    background-color:#6f91a9;
+}
+
+.page-template-findarep-static li.findarep {
+  display:none !important;
+}
+
+.page-template-findarep-static .no-overflow {
+  background-color:#fff;
+  min-height:700px;
+  overflow-x:hidden;
+}
+
+.page-template-findarep-static #rep_second_slider {padding-top:60px;}
+
+.page-template-findarep-static #rep_first_slider{padding-top:25px;}
+
+.page-template-findarep-static #rep_third_slider{padding-top:30px;display:block;}
+h3.search_header{font-family:'brandon_grotesquebold', Arial, sans-serif; color:#C1A236; /*font-size:48px;*/ text-transform:uppercase;color:#fff; text-align:left; /*width:80%;*/padding: 0 40px; font-size:70px; line-height:80px;margin-top:0;}
+h4.search_header{color:#fff; text-align:left;font-size: 21px;line-height: 28px;padding-bottom: 32px;font-family:'minion-pro';font-weight:400;font-style:normal;padding: 0 40px; margin-bottom:42px;letter-spacing: .3px;/*-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;*/text-rendering: optimizeLegibility;}
+.search_title {font-family:'brandon_grotesque_regularRg', Arial, sans-serif; color:#C1A236; font-size: 21px;line-height: 28px; text-transform:uppercase; text-align:center;letter-spacing:0.1em;}
+.search_title:before, .search_title:after{font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;vertical-align: middle;/*-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale*/;content: "\00a0\2014\00a0";position:relative; top:-5px;color: #c1a236;
+}
+.rep_sub_title {font-size:18px; line-height:24px; color:#323234; /*color:#5a5a5f*/; text-align:center; font-family:'minion-pro';font-weight:400;font-style:normal;/*font-smoothing:anti-aliased;*/;letter-spacing:0.02em;}
+.rep_title_bottom {font-family:'brandon_grotesquebold', Arial, sans-serif; color:#323234; /*color:#5a5a5f*/; font-size:18px; text-transform:uppercase; text-align:center; padding:10px; border:3px solid #fff; width:150px; margin:40px auto;}
+#repData h2 {color:#323234; /*color:#5a5a5f*/; font-family:'brandon_grotesquebold', Arial, sans-serif; text-transform:uppercase; font-size:28px; margin-left:10px;}
+#repData h6 {color:#5a5a5f; font-family:'brandon_grotesquebold', Arial, sans-serif; font-size:15px; margin-bottom:0px;} 
+.rep_results_p {color:#323234; /*color:#5a5a5f*/; font-family:'brandon_grotesque_regularRg', Arial, sans-serif;  font-size:18px;}
+#repData p {color:#323234; /*color:#5a5a5f*/; font-family:'minion-pro';font-weight:400;font-style:normal;/*font-smoothing:anti-aliased;*/; font-size:16px;line-height:24px;}
+#repForm-s{position:relative;margin:30px 0;}
+#repForm{display:inline;}
+#zip {width:50px; border:none; height:25px; color:#5b5a5f; font-family:'brandon_grotesque_regularRg', Arial, sans-serif; padding-left:7px; margin-left:7px;}
+#zip_slider {width:99%; border:0px; height:64px; text-align:left; padding:0 10px;font-family:"brandon_grotesque_regularRg", Arial, sans-serif; font-style: italic;
+font-weight: 300;font-size:20px;line-height:24px;border:1px solid #cdcdcf; color:#323234; /*color:#5a5a5f*/ ;}
+#slider_search {background-color:#328abd; color:#323234; /*color:#5a5a5f*/; text-transform:uppercase; font-family:'brandon_grotesquebold', Arial, sans-serif;border-radius:2px; border:none; padding:3px 12px; margin-left:7px; }
+.zip_slider_div {text-align:center;}
+.zip_slider_div .search_title_bottom {width:140px;}
+
+#zip_button {background-color: #328ABD;color:#fff;cursor: pointer;font-family:"brandon_grotesquebold",Arial,sans-serif; padding:10px; text-align:center; text-transform:uppercase; border:0; outline:0;border-radius: 3px;text-transform: uppercase;font-size: 13px;line-height:13px;padding: 15px 18px;position:absolute; top:12px;right:0px;}
+#repFormSmall {display:inline;}
+#mapInfo {}
+#repData {text-align:left;}
+
+.clear{clear:both;}
+
+/*==== find a rep form ====*/
+#repForm-contact{position:relative;margin:30px 0;}
+#zip_contact_slider {width:100%; border:0px; height:64px; text-align:left; padding:0 10px;font-family:"brandon_grotesque_regularRg", Arial, sans-serif; font-style: italic;
+font-weight: 300;font-size:20px;line-height:24px;border:1px solid #cdcdcf;color:#323234; /*color:#5a5a5f*/ ;}
+#repForm-contact label{font-size: 11px;letter-spacing:0.1em;text-transform: uppercase;position: relative;top: -4px;color:#323234; /*color:#5a5a5f*/; float:left;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold;}
+#repForm-contact input[type="text"]{font-family:"brandon_grotesque_regularRg", Arial, sans-serif;font-size: 20px;padding-left: 10px;display: block;width:100%;height: 32px;border: 1px solid #cdcdcf;}
+
+#repForm-contact .first-name{width:37.73585%;float:left;}
+#repForm-contact .last-name{width:37.73585%;float:left;margin-left: 2.56604%;}
+#repForm-contact .zip-code{width:18.86792%;float:left;margin-left:2.56604%;}
+#repForm-contact .first-name input, #repForm-contact .last-name input, #repForm-contact .zip-code input{width:100%;}
+
+#repForm-contact .contact-method{width:37.73585%;float:left;margin: 20px 0;position:relative;clear:both;}
+#repForm-contact .contact-method select{font-size: 20px;border-radius: 0;height: 32px;
+    display: block;width: 100%;font-family: "brandon_grotesque_regularRg";font-style:italic;color:#323234; /*color:#5a5a5f*/;}
+
+#repForm-contact .email-address, #repForm-contact .phone-number{width: 58.49057%;float: left;margin-top:20px;margin-left:2.56604%;position:relative;display:none;}
+#repForm-contact .email-address input, #repForm-contact .phone-number input{ width:100%;height:32px; padding-left:10px;}
+#repForm-contact .best-time-to-call{clear:both;display:none;}
+#repForm-contact .best-time-to-call input{width: 99%;height:32px;}
+
+#repForm-contact .im-interested-in{padding-top: 40px; clear: both;}
+#repForm-contact .im-interested-in > label{position: relative;clear:both;} 
+
+/*==== find a rep form checkboxes ====*/  
+#repForm-contact .form-type-checkbox{border-radius: 3px;border: 2px solid #6f91a9;
+-webkit-box-shadow: #6f91a9 0px 0px 3px;box-shadow: #6f91a9 0px 0px 3px;padding-top: 14px;padding-right: 10px;padding-bottom: 6px;padding-left: 10px;}  
+
+#repForm-contact .form-type-checkbox label{ font-size:20px;float: left;text-transform:none;font-family: "brandon_grotesque_regularRg";color:#1E1E23;font-weight:normal;/*color:#363740;*/letter-spacing: -.01em;top:0px;/*-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;*/-webkit-text-stroke:0.2px;} 
+
+/*#repForm-contact .form-type-checkbox input{-ms-transform: scale(2);-webkit-transform: scale(2);transform: scale(2);-moz-appearance: none;float: right;position: relative;
+    top: 1px; right: 7px;}*/
+
+#repForm-contact .form-type-checkbox input{opacity: 0;position: absolute;}
+
+#repForm-contact .form-type-checkbox label{position:relative;width:100%;text-align:left;}
+
+.form-checkbox + label:after{content: '';background: #fff;border: 2px solid #ddd;position:absolute; right:-10px; top:-7px; width: 26px;height: 26px;margin-right: 10px;text-align: center; border-radius:4px;}
+
+.form-checkbox:checked + label:after{background: #3093fc;content: '\2714';color:#fff;border: 2px solid #ddd;border-radius:4px;}
+
+#repForm-contact .form-type-checkbox:nth-of-type(odd) {width: 46.11905%;float: left;clear:right;margin-bottom: 10px;/*margin-right: 1.19048%;*/}
+#repForm-contact .form-type-checkbox:nth-of-type(even) {width: 46.11905%;float: right;
+    margin-left: 0;clear: none;margin-bottom: 10px;}
+/*==== end find a rep form checkboxes ====*/  
+
+#repForm-contact .additional-comments label{padding-top:30px;clear:both;display:block;width:100%;text-align:left;}
+#repForm-contact .additional-comments textarea#additional-comments{width:99%;font-size: 20px;max-width: 99%;min-height: 120px;border: 1px solid #cdcdcf;padding: 10px;letter-spacing: -.01em;font-family:"brandon_grotesque_regularRg", Arial, sans-serif;font-style:italic;margin-right:1%;}
+
+#repForm-contact .form-actions{text-align:right;margin-right:1%;}
+input#repData-contact-submit {background-color: #328ABD;color:#fff;cursor: pointer;font-family:"brandon_grotesquebold",Arial,sans-serif; padding:10px; text-align:right; text-transform:uppercase; border:0; outline:0;border-radius: 3px;text-transform: uppercase;font-size: 13px;line-height:13px;padding: 15px 18px;}
+
+p.submit-prefix-text{text-align:right;margin-top: 30px;letter-spacing: .02em;color:#323234; /*color:#5a5a5f*/;font-family:'minion-pro';font-weight:400;font-style:normal;/*font-smoothing:anti-aliased;*/font-size:16px;margin-bottom:10px;}
+
+
+.repData-thank-you{display:none; text-align:left;font-size:20px;font-family:"brandon_grotesque_regularRg",Arial, sans-serif;padding: 10px;letter-spacing:-.01em;}
+.repData-thank-you legend{border-bottom:0px;}
+
+
+
+/*==== find a rep - ajax ====*/
+
+#repData
+/*#results_container{margin-top:100px;}*/
+.results-top{background-color:#6f91a9;padding:40px;margin-left:-2000px;padding-left:2000px;margin-right:-2000px;padding-right:2000px;}
+.results-top .rt-left{width:37%; float:left;}
+.results-top .rep_results_p{font-size:48px; line-height:53px;color:#fff; text-transform: uppercase; font-family:'brandon_grotesquebold', Arial, sans-serif; }
+
+.results-top .rt-right{width:63%; float:left;}
+.results-top .rt-right form{}
+.results-top .rt-right form .sm-form-top{/*width:300px*/;margin:0 auto;}
+.results-top .rt-right p.sm-form-text{color:#fff !important;font-size:16px; line-height:24px;font-family:'brandon_grotesque_regularRg', Arial, sans-serif;display:inline-block;padding-top:16px;float:left;}
+.results-top .repFormSmall input#zip{width: 140px;height:50px;float:left;background-color:#fff; font-size:20px; line-height:24px; color:#1E1E23;/*color:#363740*/;font-family:'brandon_grotesque_regularRg', Arial, sans-serif;padding-left: 20px;}
+.results-top .repFormSmall input#slider_search{background-color: #002550;float: right;padding: 17px 18px 18px;margin-top: 2px;font-family:'brandon_grotesquebold', Arial, sans-serif; font-size:13px; text-transform:uppercase; color:#fff;margin-left:0;border:0;outline:0;}
+.results-top .repFormSmall input#slider_search:hover{text-decoration:underline;}
+
+.results-bottom{height:600px;}
+.results-bottom .repitems-wrapper .repitem{margin-bottom:20px;}
+.results-bottom .repitems-wrapper .repitem h6{font-family:'brandon_grotesque_regularRg', Arial, sans-serif !important;font-size:24px !important; line-height:30px;} 
+
+.results-bottom .repitems-wrapper .repitem p{font-size:16px; line-height:24px !important;}
+
+.repitems-wrapper{width:37%;float:left;height:590px; overflow-y:scroll;}
+#map-m{background-color:#999; width:63%;height:600px;float: right;}
+a.contact-agency{color:#063e66;font-size:17px;line-height:26px;}
+
+
+/*==== find a rep - contact agency page ====*/
+.no-overflow{overflow-x: hidden;}
+
+.contact-top{padding-top:60px;margin-left:-2000px;padding-left:2000px;margin-right:-2000px;padding-right:2000px;}
+.page-template-page-contact-agency .no-overflow{overflow-x: hidden;}
+.contact-top .container{padding:0;width:90%;position:relative;padding-bottom:40px;}
+
+.contact-top h1.contact{font-family:'brandon_grotesque_regularRg', Arial, sans-serif ; color:#C1A236; font-size:32px; line-height:32px;text-transform:uppercase;color:#fff; text-align:left;margin:10px 0;margin-right:300px;font-weight:bold;}
+.contact-top h5{color:#fff;font-family:'brandon_grotesquebold', Arial, sans-serif; font-size:20px;line-height:24px;margin-top:45px;margin-right:300px;}
+.contact-top p{color:#fff;font-size:14px;line-height:20px;margin-top:15px;margin-right:300px;font-family:'minion-pro';font-weight:400;font-style:normal;/*font-smoothing:anti-aliased;*/}
+.contact-top p.long_description{font-weight:bold;}
+a#serp{color:#002C5F;text-decoration:underline;font-size:14px;line-height:20px;}
+
+.contact-details{position:absolute; top:16px; right:0;
+    width:270px;height:auto;border-radius: 2px;-webkit-box-shadow: #5a5a5f 0px 0px 2px;box-shadow: #5a5a5f 0px 0px 2px;min-height: 300px;background-color: white;padding: 12px;color:#000;font-family:'brandon_grotesque_regularRg', Arial, sans-serif;font-size:16px;line-height:24px;}
+.contact-details p{color:#000;font-family:'brandon_grotesque_regularRg', Arial, sans-serif;font-size:16px;line-height:24px;}
+
+.contact-details hr{margin-top: 20px;margin-bottom: 20px;border: 0;border-top: 1px solid #eeeeee;}
+
+.form-section .container #repData-contact{margin-top:90px;}
+
+#agency-map{width:100%;height:480px;padding-left:15px;}
+#agency_logo{text-align:center;max-width:245px;margin: 0 auto 10px auto;}
+p#agency_name, p#agency_address1, p#agency_address2, p#agency_city_state, p#agency_phone{width:100%;margin:0;font-family:'brandon_grotesque_regularRg', Arial, sans-serif;font-size:16px;line-height:24px;text-transform: uppercase;}
+p#agency_phone{margin-bottom:20px;}
+a#agency_website, a#agency_directions{font-family:'brandon_grotesque_regularRg', Arial, sans-serif;font-size:16px;line-height:24px;color:#002c5f;text-decoration:underline;}
+
+#repForm-contact input.error, #repForm-contact select.error,
+#repForm-contact .form-type-checkbox.error{border:1px solid #ff0000;}
+#repForm-contact span.error-notice{position:relative;top:-4px;display:inline-block;font-size:13px;color:#ff0000;float:left;margin-left:12px;display:none;}
+
+#repForm-contact .zip-code span.error-notice{margin-left:10px}
+
+/*==== find a rep - thank you page ====*/
+
+.thankyou-container{background-color:#6f91a9;padding:0px;/*width:90%;*/position:relative;margin:0 auto;margin-left:-2000px;padding-left:2000px;margin-right:-2000px;padding-right:2000px;}
+.thankyou-container p{color:#fff !important;font-family:'brandon_grotesquebold', Arial, sans-serif !important; font-size:70px !important; line-height:80px !important; text-align:center;padding: 100px 15%;text-transform: uppercase;}
+.thankyou-bottom{padding:50px 0 ;width:90%;position:relative;margin:0 auto;}
+.thankyou-bottom p{font-family:'brandon_grotesque_regularRg', Arial, sans-serif ; font-size:24px!important; line-height:28px !important; text-align:center;padding:10px 200px 30px 200px;}
+
+/*==== responsive ====*/
+@media only screen and (max-width: 1024px) {
+	.thankyou-bottom p {padding: 10px 10% 30px 10%;}
+}
+
+@media only screen and (max-width: 800px) {
+	#repForm-contact .first-name, #repForm-contact .last-name, 
+	#repForm-contact .zip-code, #repForm-contact .best-time-to-call,
+	#repForm-contact .contact-method{float:none;margin-left:0; width:98%;margin-bottom:20px;}
+	#repForm-contact .email-address, #repForm-contact .phone-number{float:left;margin-left:0; width:98%;margin-bottom:10px;}
+	#repForm-contact .form-type-checkbox:nth-of-type(odd){float: left;width:96%;}
+	#repForm-contact .form-type-checkbox:nth-of-type(even){float:left;width:96%;}
+	.repitems-wrapper{margin-top:0px;}
+	.results-top .rt-left, .results-top .rt-right{width:100%;float:none;text-align:center;}
+	.results-top .rt-left .rep_results_p{margin-bottom: 20px;display: inline-block;}
+
+
+@media only screen and (max-width: 767px) {
+	.contact-top .container .contact-details{position:relative;}
+	.contact-top .container h1, .contact-top .container h5,
+	.contact-top .container p{margin-right:0;}
+	#map-m {width: 80%; float:none;margin: 0 auto;height:500px;}
+	.repitems-wrapper{width:80%;margin-left:10%;}
+}
+
+@media only screen and (max-width: 480px) {
+	h3.search_header{font-size:28px; line-height:40px;}
+	h3.search_title:before, h3.search_title:after{display:none;}
+	.thankyou-bottom p {padding: 10px 5% 30px 5%;}
+	#agency-map{padding-left:0;width: 80%;margin: 0 auto;}
+	.results-top .repFormSmall input#slider_search, 
+  	p.sm-form-text, .sm-form-top input#zip{display:block !important;margin-left:auto !important;margin-right:auto !important;float:none !important;margin-bottom:20px;}
+	.results-top .repFormSmall input#zip{width:132px !important;padding-left:0;padding:0 4px;}
+	p.sm-form-text{width:140px;}
+
+}

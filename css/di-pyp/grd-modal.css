@@ -1,0 +1,69 @@
+.jquery-modal {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out; }
+
+.jquery-modal .modal {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out; }
+.jquery-modal.current {
+  opacity: 1;
+  z-index: 10; }
+  .jquery-modal.current .modal {
+    opacity: 1;
+    border-radius: 0px; }
+.jquery-modal .modal {
+  padding: 25px 5% 40px;
+  text-align: center;
+  max-width: 575px;
+  overflow: visible;
+  z-index: 11;
+  background-color: transparent;
+  box-shadow: none; }
+  .jquery-modal .modal .close-modal {
+    background: url(../../img/close.svg) no-repeat center;
+    background-size: 50%;
+    height: 42px;
+    width: 42px;
+    top: 5px;
+    right: 5px; }
+  .jquery-modal .modal p {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: "brandon_grotesquelight";
+    font-size: 1.5em; }
+    .jquery-modal .modal p .blue {
+      color: #328abd;
+      font-family: "brandon_grotesquebold";
+      display: block;
+      font-size: 1em; }
+  .jquery-modal .modal a.btn {
+    font-family: "brandon_grotesquebold";
+    width: 130px; }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .jquery-modal .modal {
+    padding: 95px 5% 40px; }
+    .jquery-modal .modal button.close {
+      display: none; }
+    .jquery-modal .modal .close-modal {
+      top: 55px; } }
+.jquery-modal .modal .close-modal {
+  background: url(../../img/close.svg) no-repeat center;
+  background-size: 50%;
+  height: 42px;
+  width: 42px;
+  top: 5px;
+  right: 5px; }
+
+#feranmi-video.modal {
+  padding: 0;
+  max-width: 1165px; }
+
+@media screen and (max-height: 50rem) and (min-width: 56.25rem) {
+  #feranmi-video.modal {
+    max-width: 1020px;
+    width: 60%; } }

@@ -1,0 +1,725 @@
+@import url(../jquery.modal.css);
+@import url(grd-modal.css);
+/* Colors */
+@import url(../animate.css);
+@import url(blur.css);
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  font-size: 16px; }
+
+body {
+  font-family: "brandon_grotesque_regularRg"; }
+  @media screen and (min-width: 48rem) {
+    body {
+      padding-top: 67px; } }
+
+.clear {
+  clear: both; }
+
+.sr-only {
+  position: absolute;
+  left: -9999999px; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "brandon_grotesquebold";
+  color: #14296c; }
+
+h2 {
+  font-family: "brandon_grotesqueblack"; }
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-family: "brandon_grotesque_regularRg";
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #1d3997; }
+  p.small {
+    font-size: 1.25rem; }
+  @media screen and (min-width: 48.0625rem) and (max-width: 62.5rem) {
+    p {
+      font-size: 1.5rem; } }
+  @media screen and (min-width: 62.5625rem) {
+    p {
+      font-size: 1.80125rem; } }
+
+strong {
+  font-weight: normal;
+  font-family: "brandon_grotesquebold"; }
+
+.inner-wrapper {
+  width: 88%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+
+.btn {
+  height: 50px;
+  line-height: 50px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  font-family: "brandon_grotesquemedium";
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  padding: 0px 15px;
+  background-color: #329cf7 !important;
+  color: white; }
+
+.btn.btn-liam {
+  background-color: #329cf7;
+  color: white;
+  height: 3.5625rem;
+  line-height: 3.5625rem;
+  border-radius: 5px;
+  text-transform: none; }
+
+.btn.btn-navy {
+  color: white; }
+
+input {
+  outline: none;
+  border: none; }
+
+@media screen and (min-width: 48.0625rem) {
+  .search_dropdown .container {
+    padding-left: 6%;
+    padding-right: 6%; } }
+img {
+  max-width: 100%; }
+
+.liam-copy p {
+  font-size: 1.125rem;
+  color: #1d3997;
+  line-height: 1.33;
+  width: 86%;
+  max-width: 52.4375rem;
+  margin: 0 auto;
+  text-align: center;
+  display: block; }
+  @media screen and (min-width: 64rem) {
+    .liam-copy p {
+      font-size: 1.5rem; } }
+
+.light-heading {
+  font-family: "brandon_grotesquelight";
+  font-size: 2.625rem;
+  text-align: center;
+  color: #14296c;
+  line-height: 1;
+  width: 85%;
+  margin: 0 auto; }
+  @media screen and (min-width: 64rem) {
+    .light-heading {
+      font-size: 4rem; } }
+
+#liam-hero {
+  margin-bottom: 3rem; }
+  #liam-hero h2, #liam-hero p {
+    width: 88%;
+    margin: 0 auto; }
+  #liam-hero h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem; }
+  #liam-hero p {
+    font-size: 1.125rem;
+    line-height: 1.22;
+    color: #14296c; }
+  #liam-hero img {
+    width: 100%;
+    vertical-align: bottom; }
+  @media screen and (min-width: 48rem) {
+    #liam-hero {
+      position: relative; }
+      #liam-hero img {
+        z-index: 1; }
+      #liam-hero .hero-copy {
+        z-index: 2;
+        position: absolute;
+        left: 3rem;
+        top: 38%;
+        transform: translate(0%, -38%);
+        width: 43%; }
+        #liam-hero .hero-copy h2, #liam-hero .hero-copy p {
+          width: 100%; } }
+  @media screen and (min-width: 64rem) {
+    #liam-hero h2 {
+      font-size: 3rem; }
+    #liam-hero p {
+      font-size: 1.25rem; } }
+  @media screen and (min-width: 80rem) {
+    #liam-hero p {
+      font-size: 1.5rem; }
+    #liam-hero .hero-copy {
+      left: 9rem; } }
+
+.liam-icons {
+  text-align: center; }
+  .liam-icons .icons .icon {
+    opacity: 0; }
+
+#liam-icons-1 {
+  width: 83%;
+  margin: 0 auto;
+  overflow: visible; }
+  #liam-icons-1 h3, #liam-icons-1 p {
+    color: #1d3997; }
+  #liam-icons-1 h3 {
+    font-size: 1.375rem;
+    margin-bottom: .85rem; }
+  #liam-icons-1 p {
+    font-size: 1.125rem;
+    line-height: 1.22; }
+  #liam-icons-1 .icon {
+    margin-bottom: 3rem; }
+    #liam-icons-1 .icon svg {
+      width: 30%;
+      margin: 0 auto 1.5rem;
+      height: auto; }
+  @media screen and (min-width: 48rem) {
+    #liam-icons-1 {
+      width: 90%;
+      position: relative;
+      height: 21.5rem;
+      max-width: 70rem; }
+      #liam-icons-1 .icons {
+        position: absolute;
+        bottom: 2rem;
+        height: 24.5rem; }
+      #liam-icons-1 .icon {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+        box-sizing: border-box;
+        margin-bottom: 0; }
+        #liam-icons-1 .icon:nth-child(1) {
+          padding: 0 2rem 0 0; }
+        #liam-icons-1 .icon:nth-child(3) {
+          padding: 0 0 0 2rem; }
+        #liam-icons-1 .icon svg {
+          width: 114px; } }
+  @media screen and (min-width: 64rem) {
+    #liam-icons-1 {
+      height: 22rem; }
+      #liam-icons-1 .icons {
+        height: 29rem;
+        bottom: 4rem; }
+      #liam-icons-1 h3 {
+        font-size: 2.25rem; }
+      #liam-icons-1 p {
+        font-size: 1.25rem; }
+      #liam-icons-1 .icon svg {
+        width: 168px; }
+      #liam-icons-1 .icon#liam-icon-2 {
+        animation-delay: .6s; }
+      #liam-icons-1 .icon#liam-icon-3 {
+        animation-delay: .9s; } }
+  @media screen and (min-width: 80rem) {
+    #liam-icons-1 {
+      height: 19rem; }
+      #liam-icons-1 .icons {
+        bottom: 14rem;
+        height: 20rem; }
+      #liam-icons-1 .icon:nth-child(2) {
+        padding: 0 1.5rem; }
+      #liam-icons-1 .icon svg {
+        width: 190px; } }
+  @media screen and (min-width: 90rem) {
+    #liam-icons-1 .icons {
+      bottom: 17rem; } }
+
+#liam-copy-1 {
+  padding: 1rem 0; }
+  #liam-copy-1 p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem; }
+  @media screen and (min-width: 64rem) {
+    #liam-copy-1 p {
+      font-size: 1.875rem; } }
+  @media screen and (min-width: 80rem) {
+    #liam-copy-1 p {
+      max-width: 63.4375rem;
+      margin-bottom: 3rem; } }
+
+.liam-meter {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 1rem 0 2rem; }
+  .liam-meter h2 {
+    margin-bottom: 3rem; }
+  .liam-meter .meter-box {
+    box-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.21);
+    width: 91%;
+    margin: 0 auto;
+    background: white;
+    padding: 1.8125rem 1rem 1.5rem 1.125rem;
+    box-sizing: border-box;
+    opacity: 0; }
+  .liam-meter h3 {
+    color: #1d3997;
+    font-size: 1.5rem;
+    margin-bottom: .65rem; }
+  .liam-meter p {
+    font-size: 1.125rem;
+    line-height: 1.22;
+    margin-bottom: 1rem; }
+  .liam-meter#liam-meter-1 {
+    background-image: url(../../img/riskometer_bg_1.jpg);
+    background-position: center bottom; }
+  .liam-meter#liam-meter-2 {
+    background-image: url(../../img/riskometer_bg_2.jpg);
+    background-position: center bottom;
+    background-color: #ebf5ff;
+    padding-bottom: 3rem; }
+  @media screen and (min-width: 48rem) {
+    .liam-meter .meter-box {
+      padding: 4.1875rem 2.0625rem;
+      width: 82%;
+      max-width: 69.0625rem; }
+    .liam-meter .meter-copy, .liam-meter .meter-animation {
+      display: inline-block;
+      vertical-align: top; }
+    .liam-meter .meter-copy {
+      width: 59%;
+      padding-right: 2.75rem;
+      box-sizing: border-box;
+      margin-top: 3rem; }
+    .liam-meter .meter-animation {
+      width: 37%;
+      float: right; } }
+  @media screen and (min-width: 64rem) {
+    .liam-meter h3 {
+      font-size: 2.25rem; }
+    .liam-meter p {
+      font-size: 1.25rem; }
+    .liam-meter .meter-animation {
+      height: 21.5625rem; }
+    .liam-meter .meter-copy {
+      margin-top: 4rem; } }
+  @media screen and (min-width: 80rem) {
+    .liam-meter h2 {
+      margin-bottom: 5rem; }
+    .liam-meter .meter-box {
+      padding: 5.25rem 7.0625rem 5.25rem 5.25rem;
+      margin-bottom: 6.125rem; }
+    .liam-meter h3 {
+      margin-bottom: 1.75rem; }
+    .liam-meter .meter-copy {
+      width: 62%;
+      margin-top: 2em; } }
+
+#liam-easel {
+  background: url(../../img/easal-bg.jpg) no-repeat center bottom;
+  background-size: 100%;
+  padding-bottom: 1.5rem;
+  text-align: center; }
+  #liam-easel h3 .underline {
+    text-decoration: underline; }
+  #liam-easel p {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 54.8125rem;
+    font-size: 1.5rem; }
+  #liam-easel #liam-easel-animation {
+    padding: 3rem 0;
+    width: 75%;
+    margin: 0 auto;
+    max-width: 31.25rem;
+    opacity: 0; }
+  @media screen and (min-width: 64rem) {
+    #liam-easel #liam-easel-animation {
+      height: 43.75rem; }
+    #liam-easel p {
+      width: 71%; } }
+  @media screen and (min-width: 80rem) {
+    #liam-easel #liam-easel-animation {
+      padding: 3.5rem 0 5rem; } }
+
+#liam-copy-2 {
+  padding: 1.5rem 0; }
+  @media screen and (min-width: 80rem) {
+    #liam-copy-2 {
+      padding: 5rem 0; } }
+
+#liam-interractive-intro {
+  padding: 2rem 0; }
+  #liam-interractive-intro p {
+    width: 82%;
+    margin: 0 auto;
+    display: block;
+    font-family: "brandon_grotesquebold";
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: normal;
+    color: #14296c;
+    max-width: 67.625rem; }
+    @media screen and (min-width: 64rem) {
+      #liam-interractive-intro p {
+        font-size: 2.5rem;
+        margin-bottom: 2rem; } }
+    @media screen and (min-width: 56.4375rem) {
+      #liam-interractive-intro p {
+        font-size: 2.2rem; } }
+    @media screen and (min-width: 75.3125rem) {
+      #liam-interractive-intro p {
+        font-size: 3rem; } }
+
+#liam-copy-3 p {
+  font-family: "brandon_grotesquebold"; }
+
+#liam-interractive {
+  text-align: center;
+  width: 85%;
+  max-width: 916px;
+  margin: 0 auto; }
+  #liam-interractive hr {
+    border-top: 1px solid #1d3997;
+    border-bottom: 0px;
+    margin: 0 auto; }
+  #liam-interractive #liam-dots {
+    display: block;
+    margin: 1rem auto;
+    padding: 0; }
+    #liam-interractive #liam-dots li {
+      display: inline-block;
+      height: 0.4375rem;
+      width: 0.4375rem;
+      margin: 0 .5rem;
+      border-radius: 0.4375rem;
+      border: 1px solid #1d3997; }
+      #liam-interractive #liam-dots li.active {
+        background-color: #1d3997; }
+  #liam-interractive .question {
+    margin: 0 auto 2rem;
+    width: 75%;
+    display: block;
+    font-size: 1.5rem; }
+    @media screen and (min-width: 64rem) {
+      #liam-interractive .question {
+        font-size: 2rem;
+        margin-bottom: 1.2rem; } }
+    @media screen and (min-width: 80rem) {
+      #liam-interractive .question {
+        font-size: 3rem; } }
+  #liam-interractive .answer-container {
+    height: 50vh;
+    margin: 0 auto 2.6875rem;
+    position: relative;
+    width: 100%;
+    max-height: 23.5625rem; }
+    @media screen and (min-width: 415px) {
+      #liam-interractive .answer-container {
+        width: 70%; } }
+    @media screen and (min-width: 80rem) {
+      #liam-interractive .answer-container {
+        max-height: 32.75rem;
+        height: 50vh;
+        width: 85%; } }
+  #liam-interractive .btn {
+    transition: background-color .2s ease;
+    font-size: 1.25rem; }
+    #liam-interractive .btn:focus, #liam-interractive .btn:active {
+      background-color: #2f67a1;
+      color: white; }
+  #liam-interractive .svg-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  #liam-interractive #set-1 .svg-bg {
+    background-image: url(../../img/liam-int-1.jpg); }
+  #liam-interractive #set-2 .svg-bg {
+    background-image: url(../../img/liam-int-2.jpg); }
+  #liam-interractive #set-3 .svg-bg {
+    background-image: url(../../img/liam-int-3.jpg); }
+  #liam-interractive .svg-bg, #liam-interractive svg.blur-ie {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  #liam-interractive svg.blur-ie {
+    z-index: 2; }
+  #liam-interractive .svg-bg {
+    z-index: 1; }
+  #liam-interractive .svg-container {
+    height: 100%;
+    width: 100%;
+    position: relative; }
+    #liam-interractive .svg-container svg.blur-ie, #liam-interractive .svg-container .svg-bg {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%; }
+      #liam-interractive .svg-container svg.blur-ie filter, #liam-interractive .svg-container .svg-bg filter {
+        opacity: 0;
+        transition: opacity .4s ease; }
+      #liam-interractive .svg-container svg.blur-ie.blurry filter, #liam-interractive .svg-container .svg-bg.blurry filter {
+        opacity: 1; }
+  #liam-interractive .answer-buttons {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9; }
+    #liam-interractive .answer-buttons .btn {
+      display: block;
+      margin: 0 auto;
+      width: 167px;
+      text-transform: none;
+      background-color: #329CF7;
+      padding: 0; }
+      #liam-interractive .answer-buttons .btn:nth-child(2) {
+        margin-top: 1.75rem; }
+  #liam-interractive .answer {
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    z-index: 8; }
+    #liam-interractive .answer .next-button {
+      display: none; }
+    #liam-interractive .answer p {
+      margin: 4rem 0 2rem;
+      color: white;
+      display: none; }
+    #liam-interractive .answer .btn {
+      text-transform: none; }
+  #liam-interractive .blur {
+    -webkit-filter: blur(0px) brightness(100%);
+    filter: blur(0px) brightness(100%);
+    transition: filter .4s ease; }
+    #liam-interractive .blur.blurry {
+      -webkit-filter: blur(12px) brightness(80%);
+      filter: blur(12px) brightness(80%); }
+  #liam-interractive #set-2, #liam-interractive #set-3, #liam-interractive #set-4 {
+    display: none; }
+  #liam-interractive #set-4 {
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: #5FA14E; }
+    #liam-interractive #set-4 .text-container {
+      display: table-cell;
+      height: 100%;
+      vertical-align: middle; }
+      #liam-interractive #set-4 .text-container p {
+        color: white;
+        font-size: 1.5rem;
+        width: 85%;
+        margin: 0 auto 1rem;
+        line-height: 1.16;
+        max-width: 39.9375rem; }
+        #liam-interractive #set-4 .text-container p#keep-reading {
+          font-size: 0.75rem;
+          font-family: "brandon_grotesquebold"; }
+  @media screen and (min-width: 48rem) {
+    #liam-interractive {
+      width: 100%; }
+      #liam-interractive hr {
+        width: 82%; }
+      #liam-interractive .answer-buttons .btn {
+        display: inline-block;
+        margin: 0; }
+        #liam-interractive .answer-buttons .btn:nth-child(1) {
+          margin-right: 2.28125rem; }
+        #liam-interractive .answer-buttons .btn:nth-child(2) {
+          margin-left: 2.28125rem;
+          margin-top: 0; }
+      #liam-interractive .answer {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: auto;
+        max-width: 36rem;
+        width: 85%; }
+        #liam-interractive .answer p {
+          margin-top: 0; }
+      #liam-interractive p {
+        font-size: 2.25rem; }
+      #liam-interractive #set-4 p {
+        margin-bottom: 3rem !important;
+        font-size: 2.25rem !important; }
+        #liam-interractive #set-4 p#keep-reading {
+          margin-bottom: 1rem !important;
+          font-size: .75rem !important; } }
+    @media screen and (min-width: 48rem) and (min-width: 414px) {
+      #liam-interractive #set-4 p {
+        font-size: 1.5rem !important; } }
+    @media screen and (min-width: 48rem) and (min-width: 80rem) {
+      #liam-interractive #set-4 p {
+        font-size: 2.25rem !important; } }
+
+  @media screen and (min-width: 64rem) {
+    #liam-interractive hr {
+      width: 100%; }
+    #liam-interractive .question {
+      width: 100%; }
+    #liam-interractive #liam-dots {
+      margin: .6rem 0; } }
+  @media screen and (min-width: 80rem) {
+    #liam-interractive #liam-dots {
+      margin-bottom: 1.75rem; }
+    #liam-interractive .question {
+      margin-bottom: 4rem; }
+    #liam-interractive .answer-container {
+      margin-bottom: 5rem; } }
+
+#liam-copy-3 {
+  padding: 2rem 0; }
+  #liam-copy-3 p {
+    color: #14296c; }
+  @media screen and (min-width: 48rem) {
+    #liam-copy-3 p {
+      font-size: 1.5rem; } }
+  @media screen and (min-width: 80rem) {
+    #liam-copy-3 {
+      padding: 3.875rem 0; }
+      #liam-copy-3 p {
+        max-width: 47.75rem; } }
+
+#liam-video-btn {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 0 0 4rem; }
+  #liam-video-btn h3 {
+    margin-bottom: 2.5rem; }
+  #liam-video-btn a {
+    width: 14.625rem;
+    margin: 0 auto; }
+  @media screen and (min-width: 64rem) {
+    #liam-video-btn {
+      padding: 0 0 5rem; }
+      #liam-video-btn h3 {
+        margin-bottom: 4rem; } }
+
+@media screen and (min-width: 48rem) {
+  #liam-copy-4 p {
+    width: 68%; } }
+@media screen and (min-width: 64rem) {
+  #liam-copy-4 p {
+    width: 75%;
+    max-width: 45rem; } }
+
+#liam-icons-2 {
+  padding-bottom: 2rem; }
+  #liam-icons-2 .icons {
+    padding: 3rem 0; }
+  #liam-icons-2 .icon {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 17%;
+    margin: 0 1rem; }
+    #liam-icons-2 .icon:nth-child(2) {
+      animation-delay: .5s; }
+    #liam-icons-2 .icon:nth-child(3) {
+      animation-delay: .9s; }
+  #liam-icons-2 p {
+    font-size: 1.125rem;
+    line-height: 1.22;
+    font-family: "brandon_grotesquebold";
+    width: 82%;
+    margin: 0 auto;
+    display: block; }
+    #liam-icons-2 p a {
+      color: #1d3997;
+      font-weight: normal;
+      text-decoration: underline; }
+  @media screen and (min-width: 48rem) {
+    #liam-icons-2 .icon:nth-child(1) {
+      width: 64px;
+      height: 84px; }
+    #liam-icons-2 .icon:nth-child(2) {
+      width: 83px;
+      height: 88px; }
+    #liam-icons-2 .icon:nth-child(3) {
+      width: 82px;
+      height: 80px; }
+    #liam-icons-2 p {
+      width: 48%;
+      max-width: 30.875rem; } }
+  @media screen and (min-width: 64rem) {
+    #liam-icons-2 .icon:nth-child(1) {
+      width: 84px;
+      height: 108px; }
+    #liam-icons-2 .icon:nth-child(2) {
+      width: 108px;
+      height: 115px;
+      margin: 0 4.375rem; }
+    #liam-icons-2 .icon:nth-child(3) {
+      width: 106px;
+      height: 104px; }
+    #liam-icons-2 p {
+      font-size: 1.5rem; } }
+  @media screen and (min-width: 80rem) {
+    #liam-icons-2 .icons {
+      padding: 4rem 0 4.75rem; } }
+
+#diagonal-green img {
+  width: 100%;
+  display: block; }
+
+#liam-green {
+  text-align: center;
+  background-color: #5fa14e;
+  padding: 8rem 0 5rem;
+  background: url(../../img/liam-green.jpg) no-repeat center top;
+  background-size: cover; }
+  #liam-green p {
+    color: white;
+    font-size: 1.125rem;
+    font-family: "brandon_grotesquebold";
+    width: 83%;
+    margin: 0 auto;
+    display: block;
+    max-width: 50.375rem; }
+  @media screen and (min-width: 48rem) {
+    #liam-green {
+      padding-top: 10rem; }
+      #liam-green p {
+        font-size: 1.5rem;
+        width: 70%; } }
+  @media screen and (min-width: 64rem) {
+    #liam-green {
+      padding-top: 15rem; }
+      #liam-green p {
+        font-size: 2.25rem; } }
+  @media screen and (min-width: 80rem) {
+    #liam-green {
+      padding-top: 18rem; } }
+
+#liam-footnotes {
+  padding: 1.625rem 0; }
+  #liam-footnotes p {
+    width: 89%;
+    margin: 0 auto;
+    display: block;
+    color: #003573;
+    font-size: 0.75rem;
+    line-height: normal; }
+
+.jquery-modal .modal.experience-modal .close-modal {
+  background: url(../../img/close_gray.svg) no-repeat center !important;
+  width: 28px;
+  height: 28px; }
+
+/*# sourceMappingURL=style-grd-liam.css.map */

@@ -1,0 +1,200 @@
+section.carousel {
+  height: 510px;
+  position: relative;
+  overflow: hidden;
+  padding: 0; }
+  section.carousel .wipe-overlay {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #002c5f;
+    left: 0;
+    top: 0; }
+  section.carousel#myth-desktop .wipe-overlay {
+    background-color: #49a347; }
+  section.carousel .wipe-overlay.full-width {
+    width: 100%;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -ms-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out; }
+  section.carousel .wipe-overlay.half-width {
+    width: 50%;
+    z-index: 500; }
+  section.carousel .landing-page .c-left,
+  section.carousel .landing-page .c-right {
+    width: 50%;
+    overflow: hidden; }
+  section.carousel .landing-page .c-left {
+    background: none;
+    z-index: 10;
+    float: left;
+    position: inherit; }
+    section.carousel .landing-page .c-left.full-width {
+      width: 100%;
+      -webkit-transition: width 0.3s ease-in-out;
+      -moz-transition: width 0.3s ease-in-out;
+      -ms-transition: width 0.3s ease-in-out;
+      -o-transition: width 0.3s ease-in-out;
+      transition: width 0.3s ease-in-out;
+      position: absolute;
+      background: #002c5f; }
+    section.carousel .landing-page .c-left .c-content {
+      max-width: 468px;
+      width: 72%; }
+      section.carousel .landing-page .c-left .c-content .myth, section.carousel .landing-page .c-left .c-content .fact {
+        visibility: hidden; }
+        section.carousel .landing-page .c-left .c-content .myth.animated, section.carousel .landing-page .c-left .c-content .fact.animated {
+          visibility: visible !important;
+          -webkit-animation-duration: .3s;
+          /* Safari 4.0 - 8.0 */
+          animation-duration: .3s; }
+    section.carousel .landing-page .c-left .c-title {
+      font-size: 0.7500em;
+      margin-bottom: 60px; }
+    section.carousel .landing-page .c-left .c-body {
+      font-size: 1.667em;
+      margin-bottom: 60px; }
+  section.carousel .landing-page .c-right {
+    float: right;
+    z-index: 9; }
+    section.carousel .landing-page .c-right ol.priorities-facts {
+      opacity: 0;
+      width: 450px;
+      display: block;
+      margin: 160px auto 0px;
+      color: white; }
+      section.carousel .landing-page .c-right ol.priorities-facts.animated {
+        opacity: 1; }
+    section.carousel .landing-page .c-right .blue-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 44, 95, 0.9);
+      opacity: 0; }
+      section.carousel .landing-page .c-right .blue-overlay.animated {
+        opacity: 1; }
+    section.carousel .landing-page .c-right img {
+      -webkit-animation-duration: 1s;
+      /* Safari 4.0 - 8.0 */
+      animation-duration: 1s;
+      min-height: 510px;
+      opacity: 0;
+      height: 100% !important;
+      width: auto !important;
+      max-width: inherit !important; }
+      section.carousel .landing-page .c-right img.animated {
+        opacity: 1; }
+      @media screen and (min-width: 91.75rem) {
+        section.carousel .landing-page .c-right img {
+          width: 100% !important;
+          height: auto !important; } }
+
+.landing-page {
+  height: 100%; }
+  .landing-page .slick-dots {
+    top: 20px;
+    left: 45%; }
+    .landing-page .slick-dots li {
+      display: block; }
+      .landing-page .slick-dots li button:before {
+        border: 1px solid white;
+        color: transparent;
+        border-radius: 4px;
+        width: 7px;
+        height: 7px;
+        line-height: 12px;
+        content: ''; }
+      .landing-page .slick-dots li.slick-active button:before {
+        background-color: white; }
+
+.about-slider {
+  height: 100%; }
+
+.landing-page .slick-list,
+.landing-page .slick-track,
+.landing-page .slick-slide,
+.landing-page .c-left,
+.landing-page .c-right {
+  height: 100%; }
+
+.about-slider .slick-list,
+.about-slider .slick-track,
+.about-slider .slick-slide,
+.about-slider .c-left,
+.about-slider .c-right {
+  height: 100%; }
+
+.landing-page .c-left,
+.landing-page .c-right {
+  position: relative; }
+
+.about-slider .c-left,
+.about-slider .c-right {
+  position: relative; }
+
+.landing-page .c-left img,
+.landing-page .c-right img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.about-slider .c-left img,
+.about-slider .c-right img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+section#myth-di.carousel {
+  overflow: hidden; }
+section#myth-di.lp-carousel .landing-page .c-left {
+  background-color: #002c5f; }
+section#myth-di.lp-carousel .landing-page .c-left .c-content .c-title {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block; }
+section#myth-di.lp-carousel .landing-page .c-left .c-content .c-body {
+  color: white;
+  line-height: 1.2; }
+
+.landing-page .c-left .c-content,
+.landing-page .c-right .c-content {
+  margin: 115px auto 0px; }
+
+.about-slider .c-left .c-content,
+.about-slider .c-right .c-content {
+  margin: 115px auto 0px; }
+
+section.priorities-mobile {
+  height: 340px;
+  overflow: hidden; }
+  section.priorities-mobile .priorities-slider {
+    height: 100%; }
+    section.priorities-mobile .priorities-slider .slide {
+      height: 340px;
+      background-position: center;
+      background-size: cover;
+      position: relative; }
+      section.priorities-mobile .priorities-slider .slide.slick-active .copy-block {
+        background-color: rgba(0, 44, 95, 0.9); }
+      section.priorities-mobile .priorities-slider .slide .copy-block {
+        z-index: 100;
+        background-color: rgba(0, 44, 95, 0);
+        -webkit-transition: background-color 0.3s ease-in 0.9s;
+        -moz-transition: background-color 0.3s ease-in 0.9s;
+        -ms-transition: background-color 0.3s ease-in 0.9s;
+        -o-transition: background-color 0.3s ease-in 0.9s;
+        transition: background-color 0.3s ease-in 0.9s;
+        height: 100%; }
+        section.priorities-mobile .priorities-slider .slide .copy-block p {
+          width: 282px;
+          /* Chrome, Safari, Opera */
+          margin-left: 34px; }

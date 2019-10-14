@@ -1,0 +1,162 @@
+/* Colors */
+.animation#interactive {
+  padding: 0;
+  background-color: #71B2C9;
+  display: block; }
+  .animation#interactive ul li.hidden {
+    display: none; }
+  .animation#interactive .chart-left .inner-wrapper .chart-content p {
+    margin-bottom: 1.25rem;
+    color: white; }
+    .animation#interactive .chart-left .inner-wrapper .chart-content p strong {
+      font-family: "brandon_grotesqueblack"; }
+  .animation#interactive .chart-right {
+    padding: 0 !important; }
+    .animation#interactive .chart-right svg {
+      vertical-align: middle; }
+
+@media screen and (max-width: 42.8125rem) {
+  .animation#interactive {
+    display: table; }
+    .animation#interactive .chart-left,
+    .animation#interactive .chart-right {
+      width: 100%; }
+    .animation#interactive .chart-left {
+      display: table-footer-group; }
+    .animation#interactive .chart-right {
+      display: table-header-group; }
+    .animation#interactive .chart-left {
+      padding: 0; }
+      .animation#interactive .chart-left .inner-wrapper {
+        padding-top: 1.6875rem;
+        min-height: 13rem;
+        width: 84%;
+        display: table; }
+        .animation#interactive .chart-left .inner-wrapper .chart-content {
+          display: table-cell;
+          vertical-align: middle; }
+      .animation#interactive .chart-left p {
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem; }
+    .animation#interactive ul {
+      width: 84%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 1.6875rem; }
+
+  .animation#interactive .chart-right {
+    padding: 0; }
+    .animation#interactive .chart-right .int-d {
+      display: none !important; } }
+@media screen and (min-width: 42.875rem) {
+  .animation#interactive {
+    overflow: hidden; }
+    .animation#interactive #tabs .tab-container {
+      width: 50%;
+      position: relative;
+      display: block;
+      bottom: 4rem; }
+      .animation#interactive #tabs .tab-container ul {
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        transform: translate(-50%, 0%);
+        max-width: 33.6875rem;
+        width: 84%; }
+    .animation#interactive .ui-tabs-panel {
+      position: relative; }
+    .animation#interactive .chart-left,
+    .animation#interactive .chart-right {
+      float: left;
+      width: 50%; }
+    .animation#interactive .chart-right {
+      position: inherit;
+      float: right; }
+      .animation#interactive .chart-right .int-d {
+        position: relative;
+        padding-top: 75.5555556%; }
+        .animation#interactive .chart-right .int-d svg {
+          position: absolute;
+          top: 50%;
+          height: 105% !important;
+          transform: translate(0, -50%); }
+      .animation#interactive .chart-right .int-m {
+        display: none !important; }
+    .animation#interactive .chart-left {
+      position: absolute;
+      height: 100%;
+      left: 0; }
+      .animation#interactive .chart-left .inner-wrapper {
+        height: 100%;
+        position: relative;
+        max-width: inherit;
+        width: auto; } }
+#interactive.less-clicked #desktop_more_04,
+#interactive.less-clicked #desktop_more_05,
+#interactive.less-clicked #mobile_more_04,
+#interactive.less-clicked #mobile_more_05 {
+  display: none; }
+#interactive.less-clicked #desktop_less_04,
+#interactive.less-clicked #desktop_less_05,
+#interactive.less-clicked #mobile_less_04,
+#interactive.less-clicked #mobile_less_05 {
+  display: block; }
+#interactive #desktop_less_04,
+#interactive #desktop_less_05,
+#interactive #mobile_less_04,
+#interactive #mobile_less_05 {
+  display: none; }
+#interactive #desktop_more_04,
+#interactive #desktop_more_05,
+#interactive #mobile_more_04,
+#interactive #mobile_more_05 {
+  display: block; }
+
+#tabs ul li {
+  display: none; }
+#tabs.question-1 .q-1 {
+  display: inline-block; }
+#tabs.question-2 .q-2 {
+  display: inline-block; }
+#tabs.question-3 .q-3 {
+  display: inline-block; }
+#tabs.question-4 .q-4 {
+  display: inline-block; }
+#tabs.question-5 .q-5 {
+  display: inline-block; }
+#tabs.question-6 .q-6 {
+  display: inline-block; }
+#tabs.question-7 .start-over {
+  display: inline-block; }
+
+@media screen and (min-width: 74.4375rem) {
+  .animation#interactive .chart-left .inner-wrapper .chart-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 84%;
+    max-width: 33.6875rem; } }
+@media screen and (min-width: 31.3125rem) and (max-width: 74.375rem) {
+  .animation#interactive .chart-left .inner-wrapper {
+    display: table;
+    width: 100%; }
+    .animation#interactive .chart-left .inner-wrapper .chart-content {
+      transform: none;
+      display: table-cell;
+      vertical-align: bottom;
+      position: initial !important;
+      padding-bottom: 110px; }
+      .animation#interactive .chart-left .inner-wrapper .chart-content p {
+        font-size: 1.25rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; }
+        .animation#interactive .chart-left .inner-wrapper .chart-content p:last-of-type {
+          margin-bottom: 0; }
+
+  .animation#interactive #tabs .tab-container {
+    bottom: 35px; }
+    .animation#interactive #tabs .tab-container ul {
+      width: 90%; } }

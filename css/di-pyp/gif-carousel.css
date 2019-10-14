@@ -1,0 +1,173 @@
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 1; }
+
+.left {
+  z-index: 2; }
+
+.left,
+.right {
+  position: absolute; }
+
+ul.fact-list li {
+  font-family: "brandon_grotesquebold";
+  font-size: 0.8em;
+  line-height: 1.2;
+  margin-bottom: 20px; }
+  ul.fact-list li h2 {
+    font-size: 1em; }
+  ul.fact-list li.active a {
+    color: #328abd; }
+  ul.fact-list li.active:after {
+    content: ' ';
+    display: table;
+    width: 46px;
+    height: 3px;
+    background: #328abd;
+    position: absolute;
+    left: 0; }
+  ul.fact-list li a {
+    color: #afbdcd;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 3px; }
+
+.gif-container {
+  width: 432px;
+  height: 324px;
+  margin: 0px auto;
+  position: relative;
+  margin-bottom: 15px; }
+
+img.gif,
+.gif-caption,
+.chaos-percent {
+  opacity: 0;
+  position: absolute;
+  display: none;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out; }
+
+img.gif.show,
+.gif-caption.show,
+.chaos-percent.show {
+  opacity: 1 !important;
+  display: block; }
+
+.gif-caption {
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  width: 350px;
+  margin: 0 auto; }
+
+section.world-chaos {
+  background-color: #f4f4f7;
+  position: relative; }
+  section.world-chaos .center img,
+  section.world-chaos .center p {
+    margin: 0 auto;
+    text-align: center; }
+  section.world-chaos .center img {
+    width: 432px; }
+  section.world-chaos .center p {
+    color: #002c5f;
+    font-size: 1em;
+    line-height: 1.2; }
+    section.world-chaos .center p.chaos-percent {
+      color: white;
+      font-family: "brandon_grotesquelight"; }
+  section.world-chaos .left h2 {
+    font-family: "brandon_grotesqueblack"; }
+
+@media screen and (max-width: 48rem) {
+  section.world-chaos h2 {
+    margin-top: 38px;
+    margin-bottom: 0px;
+    color: #c1a236;
+    text-align: center; }
+    section.world-chaos h2.section-header {
+      color: #2f8bbe; }
+    section.world-chaos h2:after {
+      content: '';
+      height: 5px;
+      width: 100px;
+      background-color: #c1a236;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 65px;
+      display: table;
+      margin: 0 auto;
+      border-radius: 3px; }
+    section.world-chaos h2.section-header:after {
+      background-color: #2f8bbe;
+      top: auto;
+      width: 142px; }
+  section.world-chaos .chaos-slider,
+  section.world-chaos .wl-mobile-slider {
+    margin-bottom: 45px; }
+  section.world-chaos .chaos-slider .slick-dots li button:before,
+  section.world-chaos .wl-mobile-slider .slick-dots li button:before {
+    font-size: 16px;
+    line-height: 16px;
+    border: 1px solid #5a5a5f;
+    color: transparent;
+    border-radius: 8px;
+    width: 8px;
+    height: 8px;
+    content: ''; }
+  section.world-chaos .chaos-slider .slick-dots li.slick-active button:before,
+  section.world-chaos .wl-mobile-slider .slick-dots li.slick-active button:before {
+    background-color: #5a5a5f; }
+  section.world-chaos figure {
+    margin: 0; }
+    section.world-chaos figure .img-percent {
+      position: relative; }
+      section.world-chaos figure .img-percent .percent-mobile {
+        font-size: 4.125em;
+        color: white;
+        font-family: "brandon_grotesquelight";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+    section.world-chaos figure img {
+      max-width: 240px;
+      max-height: 240px;
+      display: block;
+      margin: 40px auto 32px; }
+    section.world-chaos figure figcaption {
+      width: 80%;
+      margin: 0 auto; }
+      section.world-chaos figure figcaption span {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.250em;
+        text-align: center; } }
+@media screen and (min-width: 48.06rem) {
+  section.world-chaos {
+    height: 510px; }
+  section.world-chaos .left {
+    top: 30%; }
+  section.whole-life-circle-ani .left {
+    width: 30%; }
+  section.world-chaos p.chaos-percent {
+    font-size: 4.167em; }
+
+  .chaos-slider.mobile {
+    display: none; } }

@@ -1,0 +1,37 @@
+/* Colors */
+
+/* header */
+@media only screen and (max-width: 768px) { header ul.menu.mobile > li:first-of-type { padding: 24px 20px; }
+  header ul.menu.mobile > li:first-of-type svg, header ul.menu.mobile > li:first-of-type form { display: inline-block; vertical-align: middle; }
+  header ul.menu.mobile > li:first-of-type form { width: 50%; }
+  header ul.menu.mobile > li:first-of-type svg { width: 20.66px; height: 19.66px; margin-right: 15px; }
+  header ul.menu.mobile > li:first-of-type input[type=text] { outline: none; border: none; background-color: transparent; width: 100%; -webkit-transition: width 0.4s ease-in-out; -moz-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out; color: white; font-family: "brandon_grotesquebold"; }
+  header ul.menu.mobile > li:first-of-type input[type=text]:focus { width: 100%; }
+  header ul.menu.mobile > li:last-of-type a { border: none; }
+  header ul.menu.mobile > li > a { display: block; padding: 15px 20px; text-decoration: none; color: white; font-family: "brandon_grotesquebold"; line-height: 1; text-transform: uppercase; }
+  header ul.menu.mobile > li.footer-links a { text-transform: none; font-family: "brandon_grotesque_regularRg"; padding: 10px 20px; }
+  header ul.menu.mobile > li.disclaimer { padding: 10px 20px; font-size: 1em; color: white; }
+  header .menu { clear: both; max-height: 0; transition: max-height .2s ease-out; text-align: left; background-color: #000d2f; overflow-y: auto; }
+  header .menu-icon { cursor: pointer; display: inline-block; float: right; padding: 32px 20px; position: relative; user-select: none; margin: 0px; }
+  header .menu-icon.pressed { background: #328abd; }
+  header .menu-icon .navicon { background: white; display: block; height: 2px; position: relative; transition: background .2s ease-out; width: 18px; }
+  header .menu-icon .navicon:before, header .menu-icon .navicon:after { background: white; content: ''; display: block; height: 100%; position: absolute; transition: all .2s ease-out; width: 100%; }
+  header .menu-icon .navicon:before { top: 5px; }
+  header .menu-icon .navicon:after { top: -5px; }
+  header .menu-btn { display: none; }
+  header .menu-btn:checked ~ .menu { max-height: 655.66px; height: 100vh; }
+  header .menu-btn:checked ~ .menu-icon .navicon { background: transparent; }
+  header .menu-btn:checked ~ .menu-icon .navicon:before { transform: rotate(-45deg); }
+  header .menu-btn:checked ~ .menu-icon .navicon:after { transform: rotate(45deg); }
+  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before, header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after { top: 0; }
+  header .nav-social { display: block; padding-right: 10px; padding-left: 10px; margin-top: 40px; margin-bottom: 40px; }
+  header .nav-social::after { clear: both; content: ""; display: block; }
+  header .nav-social li { float: left; display: block; margin-right: 0.88763%; width: 15.92697%; }
+  header .nav-social li:last-child { margin-right: 0; }
+  header .nav-social li a { display: block; width: 100%; background-size: 120px 46px; background-repeat: no-repeat; background-position: center; height: 46px; }
+  header .nav-social li.fb a { background-image: url(../img/icon_facebook.svg); }
+  header .nav-social li.twitter a { background-image: url(../img/icon_twitter.svg); }
+  header .nav-social li.medium a { background-image: url(../img/icon_medium.svg); }
+  header .nav-social li.linkedin a { background-image: url(../img/icon_linkedin.svg); }
+  header .nav-social li.youtube a { background-image: url(../img/icon_youtube.svg); }
+  header .nav-social li.rss a { background-image: url(../img/icon_rss.svg); } }

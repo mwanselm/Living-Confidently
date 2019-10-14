@@ -1,0 +1,350 @@
+@import url("https://use.typekit.net/add6hqh.css");
+@import url("reset.css");
+@import url("flexboxgrid.css");
+@import url("jquery-ui.min.css");
+body,
+#grd-podcast .podcast-hero .podcast-hero-content a,
+#grd-podcast .podcast .pod-ep p,
+.article h2,
+.article p,
+.article em,
+.article i,
+a {
+  font-family: "brandon-grotesque"; }
+
+#grd-podcast {
+  padding-top: 4.125rem; }
+  #grd-podcast img, #grd-podcast svg {
+    max-width: 100%; }
+  #grd-podcast .article-container {
+    width: 91%;
+    max-width: 73.0625rem; }
+  #grd-podcast .resp-container {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden; }
+    #grd-podcast .resp-container::before {
+      display: block;
+      content: ""; }
+    #grd-podcast .resp-container.feat::before {
+      padding-top: 74.5%; }
+    #grd-podcast .resp-container.all::before {
+      padding-top: 15%; }
+    #grd-podcast .resp-container iframe {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0; }
+  #grd-podcast .podcast-hero {
+    background: url(../../img/grd-podcast-hero.jpg) no-repeat center;
+    background-size: cover;
+    padding: 1.5rem 0 2.5rem; }
+    #grd-podcast .podcast-hero .podcast-hero-content {
+      text-align: center;
+      width: 86%;
+      margin: 0 auto;
+      padding: 1.5rem 1rem;
+      position: relative;
+      max-width: 65.75rem; }
+      @media screen and (min-width: 64rem) {
+        #grd-podcast .podcast-hero .podcast-hero-content {
+          padding: 4.0625rem 4.9375rem; } }
+      #grd-podcast .podcast-hero .podcast-hero-content::after {
+        content: '';
+        opacity: 0.63;
+        background-color: #ffffff;
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        display: block; }
+        @media screen and (min-width: 64rem) {
+          #grd-podcast .podcast-hero .podcast-hero-content::after {
+            height: 100%; } }
+      #grd-podcast .podcast-hero .podcast-hero-content #std-logo, #grd-podcast .podcast-hero .podcast-hero-content p, #grd-podcast .podcast-hero .podcast-hero-content a {
+        position: relative;
+        z-index: 2; }
+      #grd-podcast .podcast-hero .podcast-hero-content #std-logo {
+        width: 28%;
+        min-width: 6.625rem;
+        margin: 0 auto 1.5rem; }
+        #grd-podcast .podcast-hero .podcast-hero-content #std-logo svg {
+          width: 100%;
+          display: block;
+          height: auto;
+          position: relative;
+          z-index: 2; }
+        @media screen and (min-width: 64rem) {
+          #grd-podcast .podcast-hero .podcast-hero-content #std-logo {
+            margin-bottom: 0; } }
+      @media screen and (min-width: 64rem) {
+        #grd-podcast .podcast-hero .podcast-hero-content .pod-hero-copy {
+          padding-left: 2.5rem; }
+          #grd-podcast .podcast-hero .podcast-hero-content .pod-hero-copy a {
+            height: 4.375rem;
+            line-height: 4.375rem; } }
+      #grd-podcast .podcast-hero .podcast-hero-content p {
+        color: #1d3997;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.5rem; }
+        #grd-podcast .podcast-hero .podcast-hero-content p em {
+          font-style: italic; }
+        #grd-podcast .podcast-hero .podcast-hero-content p.podcast-hero-lg {
+          font-size: 1.625rem;
+          font-weight: bold;
+          line-height: 1.875rem; }
+        @media screen and (min-width: 64rem) {
+          #grd-podcast .podcast-hero .podcast-hero-content p {
+            text-align: left;
+            font-size: 1.625rem;
+            line-height: 2rem; }
+            #grd-podcast .podcast-hero .podcast-hero-content p.podcast-hero-lg {
+              padding-left: 1.75rem;
+              font-size: 1.875rem;
+              line-height: 2.25rem; } }
+      #grd-podcast .podcast-hero .podcast-hero-content a {
+        margin: 2.5rem auto 2rem;
+        text-transform: none;
+        font-size: 1.25rem;
+        background-color: #1c9cff;
+        font-weight: 500;
+        border-radius: 5px;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+        max-width: 12.25rem; }
+        @media screen and (min-width: 64rem) {
+          #grd-podcast .podcast-hero .podcast-hero-content a {
+            padding: 0; } }
+  #grd-podcast #app-btns {
+    padding: 1rem 0;
+    max-width: 28.9375rem;
+    margin: 0 auto; }
+    @media screen and (min-width: 64rem) {
+      #grd-podcast #app-btns {
+        padding: 2.75rem 0;
+        margin: 0; } }
+    #grd-podcast #app-btns .app-btn {
+      height: 2.5rem;
+      margin: 0.625rem 0; }
+      #grd-podcast #app-btns .app-btn a {
+        background-position: center 65%;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 1.25rem;
+        border: 1px solid #e9e9e9; }
+        #grd-podcast #app-btns .app-btn a#app-soundcloud {
+          background-image: url("../../img/soundcloud-btn.jpg");
+          background-size: 3.375rem; }
+        #grd-podcast #app-btns .app-btn a#app-apple {
+          background-image: url("../../img/apple-podcasts-btn.jpg");
+          background-size: 65%; }
+        #grd-podcast #app-btns .app-btn a#app-stitcher {
+          background-image: url("../../img/stitcher-btn.jpg");
+          background-size: 6.6875rem; }
+  #grd-podcast .podcast h2 {
+    color: #1d3997;
+    text-align: center;
+    font-size: 1.375rem;
+    font-weight: bold;
+    line-height: 1.91;
+    margin-bottom: 3.125rem; }
+  #grd-podcast .podcast .show-more {
+    color: #1c9cff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.75rem;
+    opacity: 1;
+    transition: opacity .4s ease; }
+  #grd-podcast .podcast .pod-ep {
+    margin-bottom: 3.125rem; }
+  #grd-podcast .podcast .pod-embed {
+    display: block;
+    margin-bottom: 1.5rem; }
+    #grd-podcast .podcast .pod-embed .ft-play {
+      position: relative; }
+      #grd-podcast .podcast .pod-embed .ft-play svg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        height: auto; }
+  #grd-podcast .podcast .ep-head {
+    line-height: 1.4375rem;
+    color: #1c9cff;
+    margin-bottom: 1.5rem;
+    font-weight: bold; }
+    @media screen and (min-width: 64rem) {
+      #grd-podcast .podcast .ep-head {
+        font-size: 1.375rem;
+        line-height: 1.875rem; } }
+  #grd-podcast .podcast .ep-body, #grd-podcast .podcast .ellipses, #grd-podcast .podcast .ep-body p, #grd-podcast .podcast .morePoints {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: #1d3997;
+    font-weight: 300;
+    display: inline; }
+    @media screen and (min-width: 64rem) {
+      #grd-podcast .podcast .ep-body, #grd-podcast .podcast .ellipses, #grd-podcast .podcast .ep-body p, #grd-podcast .podcast .morePoints {
+        font-size: 1.125rem;
+        line-height: 1.375rem; } }
+  #grd-podcast .podcast .ep-date {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #1d3997; }
+  #grd-podcast .podcast #accordion {
+    opacity: 0;
+    transition: opacity .2s ease; }
+    #grd-podcast .podcast #accordion.ui-accordion {
+      opacity: 1; }
+  #grd-podcast .podcast .ui-accordion .ui-accordion-content,
+  #grd-podcast .podcast .ui-accordion .ui-accordion-header {
+    padding: 0; }
+  #grd-podcast .podcast .ui-accordion .ui-accordion-header {
+    min-height: 8.125rem;
+    transition: min-height .4s ease-in-out; }
+    @media screen and (min-width: 48.06rem) {
+      #grd-podcast .podcast .ui-accordion .ui-accordion-header {
+        min-height: 11.25rem; } }
+  #grd-podcast .podcast .ui-accordion .ui-accordion-header:focus {
+    outline: 0; }
+  #grd-podcast .podcast .ui-accordion .acc-hide {
+    display: none;
+    opacity: 0; }
+  #grd-podcast .podcast .ui-accordion .ui-accordion-header-active {
+    min-height: 0; }
+  #grd-podcast .podcast .ui-accordion .ui-accordion-header-collapsed .acc-hide {
+    display: block;
+    opacity: 1; }
+  #grd-podcast .podcast .ui-accordion .ui-accordion-content-active .full-desc {
+    opacity: 1; }
+  #grd-podcast .podcast .ui-accordion .row {
+    border-top: 1px solid #1d3997;
+    padding-top: 1rem; }
+  #grd-podcast .podcast .ui-accordion .ep-body, #grd-podcast .podcast .ui-accordion .acc-more {
+    display: inline; }
+  #grd-podcast .podcast .ui-accordion .ep-details {
+    text-align: center; }
+  #grd-podcast .podcast .ui-accordion .paragraph {
+    display: block;
+    margin-bottom: 1.5rem; }
+    #grd-podcast .podcast .ui-accordion .paragraph a {
+      color: #1c9cff;
+      font-weight: normal; }
+  #grd-podcast .podcast.all-ep {
+    margin-bottom: 5.3125rem;
+    max-width: 73.125rem;
+    margin-left: auto;
+    margin-right: auto; }
+    #grd-podcast .podcast.all-ep .ui-icon {
+      display: none; }
+    #grd-podcast .podcast.all-ep .pod-ep {
+      border-top: 1px solid #1d3997;
+      margin-bottom: 1.2rem; }
+    #grd-podcast .podcast.all-ep .ep-content,
+    #grd-podcast .podcast.all-ep .ep-details {
+      padding-top: 1rem; }
+    #grd-podcast .podcast.all-ep .ep-details svg {
+      width: 100%;
+      display: block; }
+  #grd-podcast .podcast.featured-pod .ep-head {
+    height: 5.75rem; }
+    @media screen and (min-width: 25.875rem) {
+      #grd-podcast .podcast.featured-pod .ep-head {
+        height: 4.3125rem; } }
+    @media screen and (min-width: 48rem) {
+      #grd-podcast .podcast.featured-pod .ep-head {
+        height: 5.75rem; } }
+    @media screen and (min-width: 64rem) {
+      #grd-podcast .podcast.featured-pod .ep-head {
+        height: 7.5rem; } }
+    @media screen and (min-width: 65rem) {
+      #grd-podcast .podcast.featured-pod .ep-head {
+        height: 5.625rem; } }
+  #grd-podcast .podcast.featured-pod .ep-date {
+    display: block;
+    margin-top: 1.5rem; }
+  #grd-podcast .podcast#all-pod-pagination {
+    text-align: center;
+    margin-top: 4.25rem; }
+    #grd-podcast .podcast#all-pod-pagination ul li {
+      display: inline-block;
+      vertical-align: middle; }
+      #grd-podcast .podcast#all-pod-pagination ul li.pagination-btn a {
+        color: white;
+        background-color: #1c9cff;
+        border-radius: 0.3125rem;
+        vertical-align: middle;
+        width: 8.25rem;
+        display: inline-block; }
+      #grd-podcast .podcast#all-pod-pagination ul li a {
+        color: #1c9cff;
+        font-size: 0.9375rem;
+        font-weight: bold;
+        height: 2.8125rem;
+        line-height: 2.8125rem;
+        padding: 0 1.125rem;
+        text-decoration: none;
+        margin: 0 0.625rem;
+        display: inline-block; }
+      #grd-podcast .podcast#all-pod-pagination ul li.active a {
+        border: 2px solid #1c9cff;
+        border-radius: 0.3125rem; }
+  #grd-podcast .podcast.pod-about h2 {
+    color: #1d3997;
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 2.625rem;
+    text-align: center;
+    text-transform: none; }
+    @media screen and (min-width: 64rem) {
+      #grd-podcast .podcast.pod-about h2 {
+        font-size: 2.625rem; } }
+  #grd-podcast .podcast.pod-about .pod-photo-bio {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto; }
+  #grd-podcast .podcast.pod-about img {
+    display: block;
+    margin: 0 auto 3.125rem;
+    width: 57%;
+    max-width: 18.1875rem; }
+    @media screen and (min-width: 64rem) {
+      #grd-podcast .podcast.pod-about img {
+        width: 100%; } }
+  #grd-podcast .podcast.pod-about .pod-bio {
+    font-size: 1.3125rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    color: #1d3997;
+    margin-bottom: 3.125rem; }
+    #grd-podcast .podcast.pod-about .pod-bio a {
+      color: #1c9cff;
+      font-weight: normal; }
+    #grd-podcast .podcast.pod-about .pod-bio em {
+      font-family: 'brandon_grotesquelight_italic'; }
+    @media screen and (min-width: 64rem) {
+      #grd-podcast .podcast.pod-about .pod-bio {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-left: 4.875rem;
+        margin-bottom: 3.75rem; } }
+  #grd-podcast .podcast.pod-about .pod-disclaimer {
+    color: #1d3997;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.3125rem;
+    margin-bottom: 3.125rem; }
+    #grd-podcast .podcast.pod-about .pod-disclaimer sup {
+      font-size: .6rem; }
+
+/*# sourceMappingURL=grd-podcast.css.map */

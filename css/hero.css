@@ -1,0 +1,123 @@
+/* Colors */
+.hero { height: 80vh; background-repeat: no-repeat; background-size: cover; background-position: center; }
+.hero.home-hero { background-image: url(../img/Phase_2_Landing_Hero.jpg); }
+.hero.wl-resources-hero, .slide-whole-life.wl-resources-hero{
+	background-image: url(../img/whole_life_resources_hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero.retirement-resources-hero { background-image:url(../img/retirement_resources_hero.jpg);  }
+.hero.disability-resources-hero, .slide-whole-life.disability-resources-hero { background-image:url('../img/disability_resources_hero.jpg'); }
+.hero.disability-resources-hero .headline, .slide-whole-life.disability-resources-hero .headline { color:#328ABD !important; }
+.hero.disability-resources-hero .subhead, .slide-whole-life.disability-resources-hero .subhead { color:#002550 !important; } 
+
+.slide-whole-life.retirement-resources-hero { 
+  background-image:url('../img/tools-resources-retirement-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  }
+  
+
+.hero.wl-resources-hero,
+.slide-whole-life.wl-resources-hero{
+  font-size: 24px;
+  position: relative;
+  max-height: 525px;
+}
+
+.hero .left {
+	max-width: 485px;
+	padding-left: 5%;
+	left: 5%;
+	transform: translate(-5%, -50%);
+  -webkit-transform: translate(-5%, -50%);
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	width: 100%;
+	color: white;
+}
+
+.disability-resources-hero .left {
+	max-width: 525px;
+}
+
+section.hero .left .headline {
+	font-family: "brandon_grotesquebold";
+	line-height: 1.2;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+section.hero .left .subhead {
+    font-family: "brandon_grotesque_regularRg";
+    font-weight: normal;
+    font-size: 1.2em;
+}
+@media only screen and (min-width: 769px){
+	section.hero .left .headline {
+		font-size: 2.083em;
+		margin-top: 25px;
+	}
+}
+
+
+@media only screen and (max-width: 768px) { 
+	.hero { height: 90vh; }
+  	.hero.home-hero { background-image: url(../img/Phase_2_Landing_Hero_Mobile.jpg); } 
+  	.hero.wl-resources-hero { background-image: url(../img/whole-life-resources-hero-mobile.jpeg); }
+    .hero.retirement-resources-hero { background-image:url(../img/retirement_resources_hero_mobile.jpg); }
+    .hero.disability-resources-hero, .slide-whole-life.disability-resources-hero { background-image:url('../img/disability_resources_hero_mobile.jpg'); }
+  	section.hero {
+  		height: 80vh;
+  		max-height: none;
+  		min-height: 534px;
+  	}
+  	section.hero .left {
+  		padding: 25px 0px;
+  		background: white;
+  		color: black;
+  		left: 50%;
+  		transform: translate(-50%, 0%);
+  		top: inherit;
+  		bottom: 0px;
+  		max-width: inherit;
+  		text-align: left;
+  	}
+  	section.hero.wl-resources-hero .left {
+  		background: transparent;
+  		bottom: 30px;
+  		color: white;
+  		text-align: left;
+  	}
+
+
+  	section.hero .left .headline,
+  	section.hero .left .subhead {
+  		margin-left: 34px;
+  		margin-right: 34px;
+  	}
+  	section.hero.wl-resources-hero .left .headline,
+  	section.hero.wl-resources-hero .left .subhead {
+  		margin-left: 24px;
+  		margin-right: 24px;
+  	}
+  	section.hero.wl-resources-hero{
+  		background-size: cover !important;
+  	}
+  	section.hero .left .headline {
+  		font-size: 2.063em;
+  		margin-bottom: 30px;
+  	}
+  	section.hero.wl-resources-hero .left .headline{
+  		font-size: 40px;
+  	}
+  	section.hero.wl-resources-hero .left .subhead{
+  		font-size: 28px;
+  	}
+  }
+@media only screen and (min-width: 769px) { .hero { max-height: 450px; } }
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+     .hero.disability-resources-hero, .slide-whole-life.disability-resources-hero { background-image:url('../img/disability_resources_hero_tablet.jpg'); }
+}

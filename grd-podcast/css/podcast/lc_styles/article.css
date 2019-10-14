@@ -1,0 +1,63 @@
+/* Colors */
+html { box-sizing: border-box; }
+body.single { background:#F5F5F5; }
+
+*, *::after, *::before { box-sizing: inherit; }
+
+.article-wrapper { max-width:1306px; margin:auto; padding:1px 0; background:white; }
+
+.article-hero { height:auto !important; max-height:100% !important; min-height:100% !important; }
+.article-hero img { display:block; width:100%; height:auto; }
+
+.article-container { width: 82%; margin-right: auto; margin-left: auto; }
+
+.article h1 { color: #363740; line-height: 1.125; }
+.article h2 { text-transform: uppercase; font-family: "brandon_grotesquebold"; font-size: 1em; }
+.article h2 strong { font-weight: normal; }
+.article p { font-family: "Minion Pro"; color: #5a5a5f; line-height: 1.5; }
+.article p.disclaimer { font-style: italic; }
+.article a { color: #002c5f; font-weight: bold;}
+.article ul { list-style: disc; }
+.article ol, .article ul { margin-bottom: 30px; margin-left: 15px; }
+.article ol li, .article ul li { line-height: 1.5; margin-bottom: 12px; font-family: "Minion Pro"; color: #5a5a5f; }
+.article.infographic { margin-top: 50px; margin-bottom: 50px; }
+.article.infographic .article-container > img { width: 100%; }
+.article.infographic .article-container h2 { font-weight: normal; font-family: "brandon_grotesquebold"; color: #363740; font-size: 2.25em; }
+.article.podcast { margin-top: 50px; margin-bottom: 50px; }
+.article.podcast audio { margin-bottom: 25px; width: 100%; }
+.article.video-article { margin-top: 50px; margin-bottom: 50px; }
+.article.video-article .wistia_responsive_padding { margin-bottom: 35px; }
+
+.article-disclaimers { background-color: #f1f1f1; padding-top: 30px; }
+.article-disclaimers p a { font-family: "brandon_grotesque_regularRg"; }
+
+.article.related h2 { margin-bottom: 40px; }
+.article.related h3 { text-transform: uppercase; color: #757579; font-family: "brandon_grotesquebold"; }
+.article.related .article-slick .slick-slide { padding-right: 2.5px; padding-left: 2.5px; }
+.article.related .article-slick .slick-slide:focus, .article.related .article-slick .slick-slide * :focus { outline: 0px; border: 0px; }
+.article.related .article-slick .slick-slide img { width: 100%; }
+.article.related .article-slick .slick-slide a { text-decoration: none; }
+.article.related .article-slick .slick-slide a .preview { overflow:hidden; height:202px; }
+
+@media only screen and (min-width: 769px) { .article-hero { height: 529px; margin-bottom: 40px; }
+  .article-container { max-width: 830px; }
+  .article h1 { font-size: 1.8125em; margin-bottom: 25px; }
+  .article p { margin-bottom: 25px; }
+  .article-disclaimers { margin-top: 45px; margin-bottom: 45px; padding-bottom: 40px; }
+  .article.related .article-slick { margin-right: -2.5px; margin-bottom: 80px; margin-left: -2.5px; }
+  .article.related .article-slick h3 { font-size: 1.275em; padding-right: 8px; padding-left: 8px; } }
+@media only screen and (max-width: 768px) { 
+  section.article-hero { 
+    height: 267px; min-height: 267px;margin-bottom: 20px; background-position:left;
+  }
+  .article p { margin-bottom: 20px; }
+  .article .article-container h2 { margin-top: 0px; line-height: 1.2; }
+  .article.infographic { text-align: center; }
+  .article-body h1 { font-size: 1.66625em; }
+  .article.related { padding-top: 40px; padding-bottom: 60px; }
+  .article.related .article-container { overflow: visible; width: 100%; }
+  .article.related .article-container h2 { width: 82%; margin-right: auto; margin-left: auto; }
+  .article.related .article-slick { overflow-x: auto; }
+  .article.related .article-slick .slick-slide { background-image: none; height: auto; }
+  .article.related .article-slick .slick-slide a .preview { overflow:visible; height:auto; }
+  .article.related .article-slick .slick-slide img, .article.related .article-slick .slick-slide h3 { width: 247px; margin: 0 auto 10px; } }

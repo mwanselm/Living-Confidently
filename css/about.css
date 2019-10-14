@@ -1,0 +1,29 @@
+
+
+.hero.about-lc h1, .hero.about-lc p { color: white; }
+.hero.about-lc h1 { text-transform: uppercase; font-family: "brandon_grotesquebold"; margin-top: 0px; margin-bottom: 0px; }
+.hero.about-lc .hero-img, .hero.about-lc .hero-copy { background-repeat: no-repeat; background-size: cover; background-position: center; }
+
+.about-body h2, .about-body p { color: #5a5a5f; }
+.about-body h2 { font-family: "brandon_grotesque_regularRg"; }
+.about-body p { font-family: "Minion Pro"; margin-bottom: 20px; line-height: 1.5; }
+
+@media only screen and (min-width: 769px) { .hero.about-lc { width: 100%; display: table; width: 100%; table-layout: fixed; }
+  .hero.about-lc .hero-img, .hero.about-lc .hero-copy { display: table-cell; width: 50%; padding: 0.88763%; vertical-align: middle; }
+  .hero.about-lc .hero-copy { background-color: #328abd; }
+  .hero.about-lc .hero-copy h1, .hero.about-lc .hero-copy p { width: 467px; margin-right: auto; margin-left: auto; }
+  .hero.about-lc .hero-copy h1 { font-size: 2.5em; }
+  .hero.about-lc .hero-copy p { font-size: 1.5em; }
+  .hero.about-lc .hero-img { background-image: url(../img/About_Desktop.jpg); }
+  .about-body { width: 774.5px; margin-right: auto; margin-left: auto; padding: 60px 15px 80px; } }
+@media only screen and (max-width: 768px) { .hero.about-lc { display: table; height: 43vh; min-height: inherit; max-height: none; width: 100%; }
+  .hero.about-lc .hero-copy { height: 100%; display: table-cell; vertical-align: middle; background-image: url(../img/About_Mobile.jpg); }
+  .hero.about-lc .hero-copy h1, .hero.about-lc .hero-copy p { width: 90%; margin-right: auto; margin-left: auto; }
+  .hero.about-lc .hero-copy h1 { font-size: 2.08313em; }
+  .hero.about-lc .hero-copy p { font-size: 1.25em; }
+  .about-body { width: 90%; margin-right: auto; margin-bottom: 30px; margin-left: auto; }
+  .about-body h2 { font-size: 1.66625em; } }
+
+  #aws-red-test {
+    color: green;
+  }

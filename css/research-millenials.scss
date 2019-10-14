@@ -1,0 +1,177 @@
+
+#millenial-icons-1,
+#millenial-icons-2 {
+	text-align: center;
+	.icons {
+		margin-left: auto;
+		margin-right: auto;
+
+		.icon {
+			display: inline-block;
+			width: 38%;
+			vertical-align: top;
+			padding-left: 15px;
+    		padding-right: 15px;
+			max-width: 175px;
+		}
+		svg {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+	p {
+		width: 83%;
+    	max-width: 960px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.mill-up {
+	p.blurb-copy {
+		max-width: 625px !important;
+	}
+}
+
+#millenial-icons-1 {
+	background: white;
+	padding: 4rem 0 3.5rem;
+	@media screen and (min-width: 48.0625rem) {
+		padding: 7.0625rem 0 5.375rem;	
+	}
+	.icons {
+		margin-bottom: 1.75rem;
+		.icon {
+			margin-bottom: 1.25rem;
+		}
+	}
+	p {
+		font-size: 1.75rem;
+		color: #002256;
+		@media screen and (min-width: 48.0625rem) {
+			font-size: 2.25rem;
+		}
+	}
+}
+
+#millenial-icons-2 {
+	background-color: #001a47;
+	padding: 4rem 0;
+	@media screen and (min-width: 48.0625rem) {
+		padding: 8.4375rem 0 8rem;	
+	}
+	p {
+		color: white;
+		font-size: 1.2rem;
+		font-family: "brandon_grotesquemedium";
+		margin-bottom: 1.5rem;
+		max-width: 48.9375rem;
+		@media screen and (min-width: 48.0625rem) {
+			font-size: 1.75rem;
+		}
+	}
+	.icons {
+		@media screen and (min-width: 48.0625rem) {
+			margin-top: 5.3125rem;
+		}
+	}
+	.icon {
+		margin-bottom: 1.75rem;
+		svg {
+			margin-bottom: 1rem;
+		}
+		.stat, .type {
+			width: 100%;
+		}
+		.stat {
+			font-size: 2.4rem;
+			font-family: "brandon_grotesqueblack";
+			margin-bottom: 0;
+			@media screen and (min-width: 48.0625rem) {
+				font-size: 3rem;
+			}
+		}
+		.type {
+			margin-bottom: 0;
+			font-size: .85rem;
+			@media screen and (min-width: 48.0625rem) {
+				font-size: 1.25rem;
+			}
+		}
+	}
+
+}
+
+#millenials-calculate {
+	text-align: center;
+	padding: 4rem 0;
+	background-color: white;
+	@media screen and (min-width: 48.0625rem) {
+		padding: 7.75rem 0 11.0625rem;	
+	}
+	p {
+		font-size: 1.2rem;
+		color: #002c5e;
+		width: 83%;
+    	max-width: 800px;
+		display: block;
+		margin: 0 auto;
+		font-family: "brandon_grotesquemedium";
+		@media screen and (min-width: 48.0625rem) {
+			font-size: 1.75rem;
+		}
+	}
+	#coming-soon, #coming-soon-img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1.7rem;
+		width: 82%;
+		max-width: 495px !important;
+	}
+	img {
+		margin: 2rem auto;
+	}
+	a.btn {
+		max-width: none;
+		margin-top: 2rem;
+	}
+
+}
+
+section.despite-finance,
+section.gray-blurb {
+	background-color: #f4f4f7 !important;
+}
+
+.millenials-animation {
+	text-align: center;
+	padding: 7.75rem 0 7.125rem;
+	background: white;
+	p {
+		
+	}
+}
+
+#research-footnote {
+	background-color: #F5F5F5;
+	padding: 3.5rem 0 3rem;
+	@media screen and (min-width: 48.0625rem) {
+		padding: 1.375rem 0 1.75rem;	
+	}
+	p {
+		font-size: 0.75rem;
+		color: #002c5e;
+    	font-family: "brandon_grotesque_regularRg";
+		width: 86%;
+    	max-width: 1440px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		@media screen and (min-width: 48.0625rem) {
+			font-size: 0.875rem;	
+		}
+	}
+}
